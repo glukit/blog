@@ -1,26 +1,32 @@
 ---
 author: alexandre.normand
-date: 2013-07-27 10:53:03-07:00
+date: 2014-08-22 9:08:03-07:00
 layout: post
-Title: Doing Beats Talking, Most of the Time
+Title: The Path to the Glukit 1.0 Preview
 ---
 
-It has been a while since I last posted. I have no excuses; I simply have a good reason. 
+People who know me can attest to this (I hope): once I commit myself to doing something, I do it. Even if it makes my life miserable. Even if no one is looking and the cost of giving up is nil. 
 
-I was *too busy*. 
+I do it because I need to create *something*. I do it because I know that the result might be worth it. I do it because I know that working on something brings a great satisfaction only on successful completion of it. 
 
-I've been working on very exciting projects so that work consumed my time and energy enough that I didn't have time to *talk* about all what I was doing.
+I started working on [glukit](http://www.mygluk.it) in March 2013. We're in August 2014, 16 months later. After an initial functional app, I had a good idea of what the minimal set of features I wanted in the 1.0 preview release. And I wanted to get that first release out. So I committed myself to making 1 commit every day until I got all of it done. 
 
-I'm still working on the same exciting things. But wait! I'm still here aren't I? I felt the need to come back and do something different (but still something *quick*). So here is a completely free to use wallpaper with an appropriate quote from none other than myself. Or could it be possible that someone else said that before I did and I just don't know? Nonsense! 
+This got me a streak of [200 days of commits](https://farm6.staticflickr.com/5561/15004911492_19aca9abd5_c.jpg) on [github](http://github.com). The funny thing is that I realized only after getting hooked that my streak would only ever be visible to me because my repositories are private. But that's not why the feature is powerful. There might be a social aspect to it but, to me, this was another behavioral science trick to help me get to a desired outcome. 
 
-I'm sure you all agree that this is priceless? That's why I'm not putting a price on it. You are free to use, modify and pretty much do anything you'd like with this as long as you give me the credit and it fits under the terms of the [Creative Commons Attribution-NonCommercial 3.0 Unported License ](http://creativecommons.org/licenses/by/3.0/).
+### The Dark Side
 
-Pick your version:
+Now what? I've gone through the making of successful creative projects like this one before. The hard part if always the life *after*. The truth is that I feel exhausted from having worked so hard without a pause for so long. That hard work and dedication got me to a significant milestone. But, now at that milestone, it's hard to find the energy to commit to the next phase. 
 
-* [My Alex special edit version](http://www.flickr.com/photos/alexnormand/9380273987/)
+#### Recharging
+The first day of my 2 weeks family vacation was the day I made my 200th day of commits. I knew I had to wrap-up before losing focus. I'm afraid that taking a break will get me to move away enough that I won't want to get back to it. I might get drawn to something new like drawing or writing a book. 
 
-* [Full size, with quote](http://flickr.com/gp/alexnormand/tk78YE)
+#### You
+But [glukit](http://www.mygluk.it/) is also different. I did commit before I left that I would return from vacation to announce the preview release of [glukit](http://www.mygluk.it/). If I was successful in creating a convincing presentation of my idea for a *better*, behavioral science powered diabetes application, maybe you'll have something to tell me. Comments, suggestions, requests. I worked on [glukit](http://www.mygluk.it/) for so long that I can't see clearly anymore if it's any good or if it can be effective like I imagined it. 
 
-* [Full size, no quote](http://flickr.com/gp/alexnormand/kQ53in)
+You'll [tell me](mailto:alexandre.normand@mygluk.it). 
 
-{{% fig class="full" src="http://farm4.staticflickr.com/3731/9380273987_eaceb6ea69_h_d.jpg" title="Doing Beats Talking, Right?" link="http://www.flickr.com/photos/alexnormand/9380273987/" %}}
+It probably sucks. But if you think it has the potential *not* to suck, I'd be excited to hear it. 
+
+Your [emails](mailto:alexandre.normand@mygluk.it) might be what fuels my next commit streak. 
+
+Love,

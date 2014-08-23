@@ -1,9 +1,11 @@
 {{ template "chrome/header.html" . }}
+<div class="row">
     <!-- CONTENT -->   
       <h1>{{ .Title }} <span class="date">[{{ .Date.Format "January 2 2006" }}]</span></h1>
 
        <div class="post content">
         {{ .Content }}
-       </div>             
+       </div>   
+ </div>          
     <!-- END CONTENT -->
 {{ template "chrome/footer.html" . }}
