@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Posts on  </title>
+    <link>http://localhost:1313/posts/index.xml</link>
+    <language>en-us</language>
+    <author>Alexandre Normand</author>
+    <rights>Creative Commons Attribution-NonCommercial 3.0 Unported License.</rights>
+    <updated>2014-08-22 09:08:03 -0700 PDT</updated>
+    
+    <item>
+      <title>The Path to the Glukit 1.0 Preview</title>
+      <link>http://localhost:1313/posts/introduction</link>
+      <pubDate>Fri, 22 Aug 2014 09:08:03 PDT</pubDate>
+      <author>Ant Zucaro</author>
+      <guid>http://localhost:1313/posts/introduction</guid>
+      <description>
+
+&lt;p&gt;People who know me can attest to this (I hope): once I commit myself to doing something, I do it. Even if it makes my life miserable. Even if no one is looking and the cost of giving up is nil.&lt;/p&gt;
+
+&lt;p&gt;I do it because I need to create &lt;em&gt;something&lt;/em&gt;. I do it because I know that the result might be worth it. I do it because I know that working on something brings a great satisfaction only on successful completion of it.&lt;/p&gt;
+
+&lt;p&gt;I started working on &lt;a href=&#34;http://www.mygluk.it&#34;&gt;glukit&lt;/a&gt; in March 2013. We&amp;rsquo;re in August 2014, 16 months later. After an initial functional app, I had a good idea of what the minimal set of features I wanted in the 1.0 preview release. And I wanted to get that first release out. So I committed myself to making 1 commit every day until I got all of it done.&lt;/p&gt;
+
+&lt;p&gt;This got me a streak of &lt;a href=&#34;https://farm6.staticflickr.com/5561/15004911492_19aca9abd5_c.jpg&#34;&gt;200 days of commits&lt;/a&gt; on &lt;a href=&#34;http://github.com&#34;&gt;github&lt;/a&gt;. The funny thing is that I realized only after getting hooked that my streak would only ever be visible to me because my repositories are private. But that&amp;rsquo;s not why the feature is powerful. There might be a social aspect to it but, to me, this was another behavioral science trick to help me get to a desired outcome.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;The Dark Side&lt;/h3&gt;
+
+&lt;p&gt;Now what? I&amp;rsquo;ve gone through the making of successful creative projects like this one before. The hard part if always the life &lt;em&gt;after&lt;/em&gt;. The truth is that I feel exhausted from having worked so hard without a pause for so long. That hard work and dedication got me to a significant milestone. But, now at that milestone, it&amp;rsquo;s hard to find the energy to commit to the next phase.&lt;/p&gt;
+
+&lt;h4 id=&#34;toc_1&#34;&gt;Recharging&lt;/h4&gt;
+
+&lt;p&gt;The first day of my 2 weeks family vacation was the day I made my 200th day of commits. I knew I had to wrap-up before losing focus. I&amp;rsquo;m afraid that taking a break will get me to move away enough that I won&amp;rsquo;t want to get back to it. I might get drawn to something new like drawing or writing a book.&lt;/p&gt;
+
+&lt;h4 id=&#34;toc_2&#34;&gt;You&lt;/h4&gt;
+
+&lt;p&gt;But &lt;a href=&#34;http://www.mygluk.it/&#34;&gt;glukit&lt;/a&gt; is also different. I did commit before I left that I would return from vacation to announce the preview release of &lt;a href=&#34;http://www.mygluk.it/&#34;&gt;glukit&lt;/a&gt;. If I was successful in creating a convincing presentation of my idea for a &lt;em&gt;better&lt;/em&gt;, behavioral science powered diabetes application, maybe you&amp;rsquo;ll have something to tell me. Comments, suggestions, requests. I worked on &lt;a href=&#34;http://www.mygluk.it/&#34;&gt;glukit&lt;/a&gt; for so long that I can&amp;rsquo;t see clearly anymore if it&amp;rsquo;s any good or if it can be effective like I imagined it.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;tell me&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It probably sucks. But if you think it has the potential &lt;em&gt;not&lt;/em&gt; to suck, I&amp;rsquo;d be excited to hear it.&lt;/p&gt;
+
+&lt;p&gt;Your &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;emails&lt;/a&gt; might be what fuels my next commit streak.&lt;/p&gt;
+
+&lt;p&gt;Love,&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
