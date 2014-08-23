@@ -18,7 +18,7 @@ This got me a streak of [200 days of commits](https://farm6.staticflickr.com/556
 Now what? I've gone through the making of successful creative projects like this one before. The hard part if always the life *after*. The truth is that I feel exhausted from having worked so hard without a pause for so long. That hard work and dedication got me to a significant milestone. But, now at that milestone, it's hard to find the energy to commit to the next phase. 
 
 #### Recharging
-The first day of my 2 weeks family vacation was the day I made my 200th day of commits. I knew I had to wrap-up before losing focus. I'm afraid that taking a break will get me to move away enough that I won't want to get back to it. I might get drawn to something new like drawing or writing a book. 
+The first day of my 2 weeks family vacation was the day I made the commit that marked the 200th day. I knew I had to wrap-up before losing focus. I'm afraid that taking a break will get me to move away enough that I won't want to get back to it. I might get drawn to something new like drawing or writing a book. 
 
 #### You
 But [glukit](http://www.mygluk.it/) is also different. I did commit before I left that I would return from vacation to announce the preview release of [glukit](http://www.mygluk.it/). If I was successful in creating a convincing presentation of my idea for a *better*, behavioral science powered diabetes application, maybe you'll have something to tell me. Comments, suggestions, requests. I worked on [glukit](http://www.mygluk.it/) for so long that I can't see clearly anymore if it's any good or if it can be effective like I imagined it. 
