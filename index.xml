@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Recent Content on  </title>
-    <link>http://localhost:1313/index.xml</link>
+    <link>http://blog.mygluk.it/index.xml</link>
     <language>en-us</language>
     <author>Alexandre Normand</author>
     <rights>Creative Commons Attribution-NonCommercial 3.0 Unported License.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>The Path to the Glukit 1.0 Preview</title>
-      <link>http://localhost:1313/posts/introduction</link>
+      <link>http://blog.mygluk.it/posts/introduction</link>
       <pubDate>Fri, 22 Aug 2014 09:08:03 PDT</pubDate>
       <author>Ant Zucaro</author>
-      <guid>http://localhost:1313/posts/introduction</guid>
+      <guid>http://blog.mygluk.it/posts/introduction</guid>
       <description>
 
 &lt;p&gt;People who know me can attest to this (I hope): once I commit myself to doing something, I do it. Even if it makes my life miserable. Even if no one is looking and the cost of giving up is nil.&lt;/p&gt;
