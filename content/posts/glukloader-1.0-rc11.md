@@ -2,7 +2,7 @@
 author: alexandre.normand
 date: 2014-08-25 21:01:03-07:00
 layout: post
-Title: Glukloader 1.0-rc11
+Title: Glukloader 1.0-rc11 now available.
 ---
 
 Today was a big milestone for Glukit: someone else besides me used it. Or rather, someone else besides me tried to. 
