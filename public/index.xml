@@ -6,7 +6,31 @@
     <language>en-us</language>
     <author>Alexandre Normand</author>
     <rights>Creative Commons Attribution-NonCommercial 3.0 Unported License.</rights>
-    <updated>2014-08-22 09:08:03 -0700 PDT</updated>
+    <updated>2014-08-25 21:01:03 -0700 PDT</updated>
+    
+    <item>
+      <title>Glukloader 1.0-rc11</title>
+      <link>http://blog.mygluk.it/posts/glukloader-1.0-rc11</link>
+      <pubDate>Mon, 25 Aug 2014 21:01:03 PDT</pubDate>
+      <author>Ant Zucaro</author>
+      <guid>http://blog.mygluk.it/posts/glukloader-1.0-rc11</guid>
+      <description>&lt;p&gt;Today was a big milestone for Glukit: someone else besides me used it. Or rather, someone else besides me tried to.&lt;/p&gt;
+
+&lt;p&gt;Given the interesting and active discussions on &lt;a href=&#34;http://www.reddit.com/r/diabetes/&#34;&gt;/r/diabetes&lt;/a&gt;, I had the intuition that I might find people who met my pretty strict requirements: Type 1 diabetic Dexcom G4 user with a Mac.&lt;/p&gt;
+
+&lt;p&gt;While this didn&amp;rsquo;t go as smoothly as I would have hoped as people were giving it a spin, I was surprised to see this much activity on &lt;a href=&#34;http://www.reddit.com/r/diabetes/comments/2ei3qe/type_1_diabetic_and_software_engineer_i_thought_i/&#34;&gt;my post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On the technical side, the biggest problem was due to a bad assumption (or oversight) I made a long time ago. Most people don&amp;rsquo;t enter user events (injections, carbs) on their receiver and the receiver returns an indicator to say there&amp;rsquo;s no data. Except I wasn&amp;rsquo;t expecting such a value. With the logs kindly provided by &lt;a href=&#34;https://github.com/ChickenBeard&#34;&gt;ChickenBeard&lt;/a&gt;, I was able to identify the bug and add tests to reproduce it. And &lt;a href=&#34;https://github.com/alexandre-normand/bloodSheltie/pull/22&#34;&gt;fix it&lt;/a&gt;, too.&lt;/p&gt;
+
+&lt;p&gt;So, for my fellow redditors that were kind enough to give it a try but experienced Glukloader becoming unresponsive, this might be an update that you want to try: &lt;a href=&#34;https://www.dropbox.com/s/ud6j8ped7wlnija/glukloader%201.0-rc11.dmg?dl=1&#34;&gt;Glukloader 1.0-rc11&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Oh and there&amp;rsquo;s also a timezone related bug that I&amp;rsquo;m trying to isolate at the moment. Hopefully, it won&amp;rsquo;t be too long before I figure this one out.&lt;/p&gt;
+
+&lt;p&gt;Again, don&amp;rsquo;t hesitate to &lt;a href=&#34;(mailto:alexandre.normand@mygluk.it&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Peace,&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Path to the Glukit 1.0 Preview</title>
@@ -38,7 +62,7 @@
 
 &lt;p&gt;You&amp;rsquo;ll &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;tell me&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;It probably sucks. But if you think it has the potential &lt;em&gt;not&lt;/em&gt; to suck, I&amp;rsquo;d be excited to hear it.&lt;/p&gt;
+&lt;p&gt;If you think it might have potential, I&amp;rsquo;d be excited to hear it.&lt;/p&gt;
 
 &lt;p&gt;Your &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;emails&lt;/a&gt; might be what fuels my next commit streak.&lt;/p&gt;
 

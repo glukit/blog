@@ -25,7 +25,7 @@ But [glukit](http://www.mygluk.it/) is also different. I did commit before I lef
 
 You'll [tell me](mailto:alexandre.normand@mygluk.it). 
 
-It probably sucks. But if you think it has the potential *not* to suck, I'd be excited to hear it. 
+If you think it might have potential, I'd be excited to hear it. 
 
 Your [emails](mailto:alexandre.normand@mygluk.it) might be what fuels my next commit streak. 
 
