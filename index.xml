@@ -3,7 +3,7 @@
   <channel>
       <title>Recent Content on  </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://localhost:1313/index.xml/</link>
+    <link>http://blog.mygluk.it/index.xml/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>♥ mmol/L</title>
-      <link>http://localhost:1313/posts/mmol/</link>
+      <link>http://blog.mygluk.it/posts/mmol/</link>
       <pubDate>Thu, 18 Sep 2014 21:01:00 PDT</pubDate>
       
-      <guid>http://localhost:1313/posts/mmol/</guid>
+      <guid>http://blog.mygluk.it/posts/mmol/</guid>
       <description>
 
 &lt;p&gt;Glukit had been built with multiple glucose units in mind but, to minimize the scope of the initial testing, the front-end had been made to support only mg/dL. I&amp;rsquo;m happy to say that this is now no longer the case. If your Dexcom is set to mmol/L, you&amp;rsquo;ll now be able to browse your data in the unit you&amp;rsquo;re used to.&lt;/p&gt;
@@ -31,10 +31,10 @@
     
     <item>
       <title>Glukloader 1.0-rc20 with Time Resolution Fixes and Growl Notifications.</title>
-      <link>http://localhost:1313/posts/glukloader-1.0-rc20/</link>
+      <link>http://blog.mygluk.it/posts/glukloader-1.0-rc20/</link>
       <pubDate>Tue, 02 Sep 2014 22:04:00 PDT</pubDate>
       
-      <guid>http://localhost:1313/posts/glukloader-1.0-rc20/</guid>
+      <guid>http://blog.mygluk.it/posts/glukloader-1.0-rc20/</guid>
       <description>
 
 &lt;p&gt;The last week or so has been pretty interesting (see this &lt;a href=&#34;http://www.reddit.com/r/diabetes/comments/2ei3qe/type_1_diabetic_and_software_engineer_i_thought_i/&#34;&gt;reddit post&lt;/a&gt; for some details). The first few days showed how bad assumptions can quickly become blockers and then how other assumptions can manifest themselves in more subtle ways.&lt;/p&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>Glukloader 1.0-rc12 now available.</title>
-      <link>http://localhost:1313/posts/glukloader-1.0-rc11/</link>
+      <link>http://blog.mygluk.it/posts/glukloader-1.0-rc11/</link>
       <pubDate>Mon, 25 Aug 2014 21:01:03 PDT</pubDate>
       
-      <guid>http://localhost:1313/posts/glukloader-1.0-rc11/</guid>
+      <guid>http://blog.mygluk.it/posts/glukloader-1.0-rc11/</guid>
       <description>&lt;p&gt;Today was a big milestone for Glukit: someone else besides me used it. Or rather, someone else besides me tried to.&lt;/p&gt;
 
 &lt;p&gt;Given the interesting and active discussions on &lt;a href=&#34;http://www.reddit.com/r/diabetes/&#34;&gt;/r/diabetes&lt;/a&gt;, I had the intuition that I might find people who met my pretty strict requirements: Type 1 diabetic Dexcom G4 user with a Mac.&lt;/p&gt;
@@ -85,10 +85,10 @@
     
     <item>
       <title>The Path to the Glukit 1.0 Preview</title>
-      <link>http://localhost:1313/posts/introduction/</link>
+      <link>http://blog.mygluk.it/posts/introduction/</link>
       <pubDate>Fri, 22 Aug 2014 09:08:03 PDT</pubDate>
       
-      <guid>http://localhost:1313/posts/introduction/</guid>
+      <guid>http://blog.mygluk.it/posts/introduction/</guid>
       <description>
 
 &lt;p&gt;People who know me can attest to this (I hope): once I commit myself to doing something, I do it. Even if it makes my life miserable. Even if no one is looking and the cost of giving up is nil.&lt;/p&gt;
