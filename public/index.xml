@@ -7,7 +7,45 @@
     <language>en-us</language>
     
     
-    <updated>Thu, 18 Sep 2014 21:01:00 PDT</updated>
+    <updated>Sat, 25 Oct 2014 08:30:00 PDT</updated>
+    
+    <item>
+      <title>A Call Out to Devs</title>
+      <link>http://blog.mygluk.it/posts/call-out-to-devs/</link>
+      <pubDate>Sat, 25 Oct 2014 08:30:00 PDT</pubDate>
+      
+      <guid>http://blog.mygluk.it/posts/call-out-to-devs/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m currently the sole developer behind &lt;a href=&#34;http://www.mygluk.it&#34;&gt;glukit&lt;/a&gt; but, like I mentionned in my &lt;a href=&#34;/posts/introduction&#34;&gt;intro post&lt;/a&gt;, I&amp;rsquo;m feeling a bit drained about the 17 months of uninterrupted work on it. Today, I&amp;rsquo;d like to call out to diabetic developers who would be interested in pushing &lt;a href=&#34;http://www.mygluk.it&#34;&gt;glukit&lt;/a&gt; further.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s Coming&lt;/h3&gt;
+
+&lt;p&gt;As of today, the main feature of glukit is the comparison with a &amp;ldquo;steady sailor&amp;rdquo;. The steady sailor at the moment is the diabetic who has the best glukit score. And to make things more interesting, I&amp;rsquo;ve recently excluded myself from the pool of eligible users.&lt;/p&gt;
+
+&lt;p&gt;The next features I&amp;rsquo;d personally like to see in &lt;a href=&#34;http://www.mygluk.it&#34;&gt;glukit&lt;/a&gt; are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;a1c prediction&lt;/li&gt;
+&lt;li&gt;ability to challenge a friend to be your steady sailor&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Following that, I&amp;rsquo;d like to add more behavioral science nudges and potentially play with different ideas regarding the normative comparisons (aggregate comparisons with a &amp;ldquo;steady sailors&amp;rdquo; group and the average).&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s also some ongoing efforts to enable 3rd party uploaders to push data to &lt;a href=&#34;http://www.mygluk.it&#34;&gt;glukit&lt;/a&gt; and enable people that aren&amp;rsquo;t running on OS X to use it.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;The Technology&lt;/h3&gt;
+
+&lt;p&gt;Glukloader, the Mac OS X uploader is written in Objective-C. Glukit itself was written in &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt; (and yes! Go is a lot of fun and it&amp;rsquo;s easy to learn) and runs on google app engine.
+&lt;a href=&#34;http://www.mygluk.it&#34;&gt;glukit&lt;/a&gt;&amp;rsquo;s front-end uses the &lt;a href=&#34;http://gumbyframework.com/&#34;&gt;gumby framework&lt;/a&gt;. Both Glukloader and &lt;a href=&#34;http://www.mygluk.it&#34;&gt;glukit&lt;/a&gt;&amp;rsquo;s code is hosted on github.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Get in Touch&lt;/h3&gt;
+
+&lt;p&gt;If that sounds like something interesting to you, I think it could be a lot of fun. &lt;a href=&#34;http://www.mygluk.it&#34;&gt;Glukit&lt;/a&gt; is a fully functional app but I have a nice backlog of exciting features that I think would be awesome for it. If you&amp;rsquo;d like to give this a try, &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;talk to me&lt;/a&gt;. I&amp;rsquo;d love to hear from you.&lt;/p&gt;
+
+&lt;p&gt;Peace,&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>♥ mmol/L</title>
