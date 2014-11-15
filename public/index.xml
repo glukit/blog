@@ -15,11 +15,13 @@
       <pubDate>Thu, 13 Nov 2014 10:00:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/new-dexcom-firmware-new-glukloader/</guid>
-      <description>&lt;p&gt;Dexcom released their new &lt;a href=&#34;https://store.dexcom.com/user/login?destination=update-tool&#34;&gt;505 firmware version&lt;/a&gt; earlier this week and I was happy to give it a try. I haven&amp;rsquo;t used the new version yet to confirm how better it is, but it&amp;rsquo;s looking promising. With that news also came the realization that Glukloader wasn&amp;rsquo;t quite ready for the case of receivers being reset. Thankfully, addressing it wasn&amp;rsquo;t very difficult.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;Update: Added additional logic to seemlessly handle receiver being reset. Link updated below.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Dexcom released their new &lt;a href=&#34;https://store.dexcom.com/user/login?destination=update-tool&#34;&gt;505 firmware version&lt;/a&gt; earlier this week and I was happy to give it a try. I haven&amp;rsquo;t used the new version yet to confirm how better it is, but it&amp;rsquo;s looking promising. With that news also came the realization that Glukloader wasn&amp;rsquo;t quite ready for the case of receivers being reset. Thankfully, addressing it wasn&amp;rsquo;t very difficult.&lt;/p&gt;
 
 &lt;p&gt;I also got rid of the colors in the Glukloader menu bar icon. Glukloader should now fit more elegantly in the menu bar next to other black and white icons.&lt;/p&gt;
 
-&lt;p&gt;That&amp;rsquo;s it. You&amp;rsquo;ll find the new version &lt;a href=&#34;https://dl.dropboxusercontent.com/u/3208429/glukloader%201.0.0.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it. You&amp;rsquo;ll find the new version &lt;a href=&#34;https://dl.dropboxusercontent.com/u/3208429/glukloader%201.0.1.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cheers,&lt;/p&gt;
 </description>
