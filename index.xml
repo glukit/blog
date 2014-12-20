@@ -24,6 +24,7 @@
 &lt;ol&gt;
 &lt;li&gt;At least 3 months of data is required for a value to be shown.&lt;/li&gt;
 &lt;li&gt;From the limited samples that I have, my a1c estimates seem to be lower than reality.&lt;/li&gt;
+&lt;li&gt;The A1C color wheel might been a bit aggressive at first glance. I debated internally whether or not to tune it down but decided not to in the end. The standard presented in Glukit is more in line with &lt;a href=&#34;http://www.amazon.com/Dr-Bernsteins-Diabetes-Solution-Achieving/dp/0316182699&#34;&gt;Dr. Richard Bernstein&amp;rsquo;s recommendations&lt;/a&gt; than what you&amp;rsquo;d see from the &lt;a href=&#34;http://www.diabetes.org/living-with-diabetes/treatment-and-care/blood-glucose-control/a1c/&#34;&gt;American Diabetes Association&lt;/a&gt;. If you haven&amp;rsquo;t read &lt;a href=&#34;http://www.amazon.com/Dr-Bernsteins-Diabetes-Solution-Achieving/dp/0316182699&#34;&gt;The Diabetes Solution&lt;/a&gt;, I highly recommend it. It definitely was a major factor in me getting my A1C down to 4.4.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;I&amp;rsquo;d like to hear about your experience with this feature. For people with the desire to do so, one interesting experiment to run would be to check you estimate the day that you get your a1c tested. Write it down. When you get your a1c result, it would be interesting to compare the estimate with the actual value.&lt;/p&gt;
