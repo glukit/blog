@@ -3,7 +3,7 @@
   <channel>
       <title>Recent Content on  </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://localhost:1313/index.xml/</link>
+    <link>http://blog.mygluk.it/index.xml/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>New Feature! Continuous A1C Estimation</title>
-      <link>http://localhost:1313/posts/a1c-estimation/</link>
+      <link>http://blog.mygluk.it/posts/a1c-estimation/</link>
       <pubDate>Fri, 19 Dec 2014 10:00:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/posts/a1c-estimation/</guid>
+      <guid>http://blog.mygluk.it/posts/a1c-estimation/</guid>
       <description>&lt;p&gt;This will be a quick feature annoucement post because I think most of you will understand it without much need for detailed explanation.&lt;/p&gt;
 
 &lt;p&gt;As of this evening, Glukit will now display an estimate of your a1c based on your most recent data available.&lt;/p&gt;
@@ -36,10 +36,10 @@
     
     <item>
       <title>New Glukloader Version for Dexcom 505 Firmware Upgrade</title>
-      <link>http://localhost:1313/posts/new-dexcom-firmware-new-glukloader/</link>
+      <link>http://blog.mygluk.it/posts/new-dexcom-firmware-new-glukloader/</link>
       <pubDate>Thu, 13 Nov 2014 10:00:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/posts/new-dexcom-firmware-new-glukloader/</guid>
+      <guid>http://blog.mygluk.it/posts/new-dexcom-firmware-new-glukloader/</guid>
       <description>&lt;p&gt;&lt;em&gt;Update: Added additional logic to seemlessly handle receiver being reset. Link updated below.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Dexcom released their new &lt;a href=&#34;https://store.dexcom.com/user/login?destination=update-tool&#34;&gt;505 firmware version&lt;/a&gt; earlier this week and I was happy to give it a try. I haven&amp;rsquo;t used the new version yet to confirm how better it is, but it&amp;rsquo;s looking promising. With that news also came the realization that Glukloader wasn&amp;rsquo;t quite ready for the case of receivers being reset. Thankfully, addressing it wasn&amp;rsquo;t very difficult.&lt;/p&gt;
@@ -54,10 +54,10 @@
     
     <item>
       <title>A Call Out to Devs</title>
-      <link>http://localhost:1313/posts/call-out-to-devs/</link>
+      <link>http://blog.mygluk.it/posts/call-out-to-devs/</link>
       <pubDate>Sat, 25 Oct 2014 08:30:00 PDT</pubDate>
       
-      <guid>http://localhost:1313/posts/call-out-to-devs/</guid>
+      <guid>http://blog.mygluk.it/posts/call-out-to-devs/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;m currently the sole developer behind &lt;a href=&#34;http://www.mygluk.it&#34;&gt;glukit&lt;/a&gt; but, like I mentionned in my &lt;a href=&#34;/posts/introduction&#34;&gt;intro post&lt;/a&gt;, I&amp;rsquo;m feeling a bit drained about the 17 months of uninterrupted work on it. Today, I&amp;rsquo;d like to call out to diabetic developers who would be interested in pushing &lt;a href=&#34;http://www.mygluk.it&#34;&gt;glukit&lt;/a&gt; further.&lt;/p&gt;
@@ -92,10 +92,10 @@
     
     <item>
       <title>♥ mmol/L</title>
-      <link>http://localhost:1313/posts/mmol/</link>
+      <link>http://blog.mygluk.it/posts/mmol/</link>
       <pubDate>Thu, 18 Sep 2014 21:01:00 PDT</pubDate>
       
-      <guid>http://localhost:1313/posts/mmol/</guid>
+      <guid>http://blog.mygluk.it/posts/mmol/</guid>
       <description>
 
 &lt;p&gt;Glukit had been built with multiple glucose units in mind but, to minimize the scope of the initial testing, the front-end had been made to support only mg/dL. I&amp;rsquo;m happy to say that this is now no longer the case. If your Dexcom is set to mmol/L, you&amp;rsquo;ll now be able to browse your data in the unit you&amp;rsquo;re used to.&lt;/p&gt;
@@ -112,10 +112,10 @@
     
     <item>
       <title>Glukloader 1.0-rc20 with Time Resolution Fixes and Growl Notifications.</title>
-      <link>http://localhost:1313/posts/glukloader-1.0-rc20/</link>
+      <link>http://blog.mygluk.it/posts/glukloader-1.0-rc20/</link>
       <pubDate>Tue, 02 Sep 2014 22:04:00 PDT</pubDate>
       
-      <guid>http://localhost:1313/posts/glukloader-1.0-rc20/</guid>
+      <guid>http://blog.mygluk.it/posts/glukloader-1.0-rc20/</guid>
       <description>
 
 &lt;p&gt;The last week or so has been pretty interesting (see this &lt;a href=&#34;http://www.reddit.com/r/diabetes/comments/2ei3qe/type_1_diabetic_and_software_engineer_i_thought_i/&#34;&gt;reddit post&lt;/a&gt; for some details). The first few days showed how bad assumptions can quickly become blockers and then how other assumptions can manifest themselves in more subtle ways.&lt;/p&gt;
@@ -142,10 +142,10 @@
     
     <item>
       <title>Glukloader 1.0-rc12 now available.</title>
-      <link>http://localhost:1313/posts/glukloader-1.0-rc11/</link>
+      <link>http://blog.mygluk.it/posts/glukloader-1.0-rc11/</link>
       <pubDate>Mon, 25 Aug 2014 21:01:03 PDT</pubDate>
       
-      <guid>http://localhost:1313/posts/glukloader-1.0-rc11/</guid>
+      <guid>http://blog.mygluk.it/posts/glukloader-1.0-rc11/</guid>
       <description>&lt;p&gt;Today was a big milestone for Glukit: someone else besides me used it. Or rather, someone else besides me tried to.&lt;/p&gt;
 
 &lt;p&gt;Given the interesting and active discussions on &lt;a href=&#34;http://www.reddit.com/r/diabetes/&#34;&gt;/r/diabetes&lt;/a&gt;, I had the intuition that I might find people who met my pretty strict requirements: Type 1 diabetic Dexcom G4 user with a Mac.&lt;/p&gt;
@@ -166,10 +166,10 @@
     
     <item>
       <title>The Path to the Glukit 1.0 Preview</title>
-      <link>http://localhost:1313/posts/introduction/</link>
+      <link>http://blog.mygluk.it/posts/introduction/</link>
       <pubDate>Fri, 22 Aug 2014 09:08:03 PDT</pubDate>
       
-      <guid>http://localhost:1313/posts/introduction/</guid>
+      <guid>http://blog.mygluk.it/posts/introduction/</guid>
       <description>
 
 &lt;p&gt;People who know me can attest to this (I hope): once I commit myself to doing something, I do it. Even if it makes my life miserable. Even if no one is looking and the cost of giving up is nil.&lt;/p&gt;
