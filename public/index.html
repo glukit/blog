@@ -61,6 +61,58 @@
   
     <div class="row">
        
+      <h2><a href="http://blog.mygluk.it/posts/glukit-goes-open-source/">Glukit Goes Open-Source</a></h2>
+
+       <div class="post content">
+        <p>I&rsquo;m happy to announce that I finally decided to fully open-source Glukit, Glukloader and glukameleon (a little tool used in dev) under the <a href="https://github.com/alexandre-normand/glukit">MIT license</a>. The main blocker was that I needed to find a solution to keeping client ids and client secrets outside of the repository and I <a href="http://blog.mygluk.it/posts/safekeeper-keeping-your-secrets-out-of-git">found something I&rsquo;m happy with now</a>.</p>
+
+<p>I was hesitant to open-source Glukit for a while because much of its value resides in the centralized service that enables you to be compared to other diabetics. It&rsquo;s a bet but I&rsquo;m hoping that Glukit going open-source won&rsquo;t mean everyone starting their own instance. And even if that happens, that might not be the end of the world.</p>
+
+<p>Here are where the repositories can be found:</p>
+
+<ul>
+<li><p><a href="http://www.mygluk.it/">Glukit</a>, the main app, written in Go: <a href="https://github.com/alexandre-normand/glukit">https://github.com/alexandre-normand/glukit</a>.</p></li>
+
+<li><p><a href="https://github.com/alexandre-normand/glukloader">Glukloader</a>, the OS X uploader, written in Objective-C: <a href="https://github.com/alexandre-normand/glukloader">https://github.com/alexandre-normand/glukloader</a>.</p></li>
+
+<li><p><a href="https://github.com/alexandre-normand/glukameleon">glukameleon</a>, a command-line tool to convert Dexcom Studio XML files into json files understood by glukit, written in Go: <a href="https://github.com/alexandre-normand/glukameleon">https://github.com/alexandre-normand/glukameleon</a>.</p></li>
+
+<li><p><a href="https://github.com/alexandre-normand/safekeeper">safekeeper</a>, a command-line tool to use with <a href="http://blog.golang.org/generate">go:generate</a> to keep secrets safe from the git history by generating code from environment variables, written in Go: <a href="https://github.com/alexandre-normand/safekeeper">https://github.com/alexandre-normand/safekeeper</a>.</p></li>
+</ul>
+
+<p>If you decide to grab the code and try hacking and find yourself lost, don&rsquo;t hesitate to <a href="mailto:alexandre.normand@mygluk.it">get in touch</a>.</p>
+
+<p>Cheers!</p>
+
+       </div>   
+    </div>       
+  
+    <div class="row">
+       
+      <h2><a href="http://blog.mygluk.it/posts/safekeeper-keeping-your-secrets-out-of-git/">Safekeeper, Keeping Your Go Secrets Out of Git</a></h2>
+
+       <div class="post content">
+        
+
+<p>I&rsquo;ve been wanting to open-source <a href="http://www.mygluk.it/">Glukit</a> for a while but I had to find a way to keep the client ids/secrets safe and outside of git before I could do so.</p>
+
+<p>Since Glukit runs on the Google App Engine, it can&rsquo;t itself just read the sensitive information from environment variables. I read a post that <a href="http://pseudony.ms/blags/secret-keys-gae.html">suggested storing the secret keys in the datastore</a> but I had quite a few and felt like this solution lacked good integration in the development flow.</p>
+
+<p>After reading about <a href="http://blog.golang.org/generate">go generate</a>, I thought that this might be a good use for it. If I could get a way to use <a href="http://blog.golang.org/generate">go generate</a> and generate my app secrets into code that was going to be ommitted from the repository, I&rsquo;d have something relatively simple and convenient.</p>
+
+<h3 id="toc_0">Enter safekeeper</h3>
+
+<p>Based on the <a href="http://blog.golang.org/generate">go generate</a> examples, I set myself out to create a command-line tool that would take a few inputs and generate a file to be git ignored containing all application secrets. You have to follow the instructions to get a nice integration but once it&rsquo;s set up, developers can set their secrets in their environment and then they just have to run <code>go generate</code> or <code>goapp generate</code> to get them into the code to deploy or run.</p>
+
+<p>I tried to include a detailed example of how it can be used effectively but <a href="mailto:alexandre.normand@mygluk.it">let me know</a> if you find anything missing.</p>
+
+<p>Cheers!</p>
+
+       </div>   
+    </div>       
+  
+    <div class="row">
+       
       <h2><a href="http://blog.mygluk.it/posts/glukloader-1.0.2/">Glukloader 1.0.2</a></h2>
 
        <div class="post content">

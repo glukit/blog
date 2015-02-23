@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Glukit</title>
+    <meta name="description" content="Glukit">
+    <meta name="keywords" content="diabetes T1D">
+    <meta name="author" content="humans.txt">
+    
+    <meta property="fb:page_id" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Glukit, The Blog">
+    <meta property="og:title" content="Glukit Blog">
+    
+    <meta itemprop="name" content="Glukit Blog">
+    <meta itemprop="description" content="Glukit, The Blog">
+    <meta itemprop="image" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <link rel="stylesheet" href="http://blog.mygluk.it/css/gumby.css">
+        
+    <script src="/bower_components/gumby/js/libs/modernizr-2.6.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script gumby-touch="js/libs" src="bower_components/gumby/js/libs/gumby.js"></script>
+    <script src="bower_components/gumby/js/libs/ui/gumby.retina.js"></script>
+    <script src="bower_components/gumby/js/libs/ui/gumby.fixed.js"></script>
+    <script src="bower_components/gumby/js/libs/ui/gumby.skiplink.js"></script>
+    <script src="bower_components/gumby/js/libs/ui/gumby.toggleswitch.js"></script>
+    <script src="bower_components/gumby/js/libs/ui/gumby.checkbox.js"></script>
+    <script src="bower_components/gumby/js/libs/ui/gumby.radiobtn.js"></script>
+    <script src="bower_components/gumby/js/libs/ui/gumby.tabs.js"></script>
+    <script src="bower_components/gumby/js/libs/ui/gumby.navbar.js"></script>        
+    <script src="bower_components/gumby/js/libs/ui/jquery.validation.js"></script>
+    <script src="bower_components/gumby/js/libs/gumby.init.js"></script>
+    <script src="bower_components/gumby/js/plugins.js"></script>
+    <script src="bower_components/gumby/js/main.js"></script>
+    <script src="js/browser.js"></script>
+</head>
+  <body>    
+    <div class="navbar">
+        <div class="row navbar" id="landing-navigation">
+            <a class="toggle" gumby-trigger="#landing-navigation > ul" href="#"><i class="icon-menu"></i></a>
+            <h1 class="four columns logo">
+                <a href="http://blog.mygluk.it/">
+                    <img src="/images/logo-blog.png" gumby-retina="">
+                </a>                
+            </h1>
+            <ul class="push_two eight columns">
+                <li><a href="http://www.mygluk.it"><i class="icon-rocket"></i> Glukit</a></li>  
+                <li><a href="http://blog.mygluk.it/index.xml"><i class="icon-rss"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+<div class="row">
+<div class="row">
+       
+      <h2>Glukit Goes Open-Source</h2>
+
+       <div class="post content">
+        <p>I&rsquo;m happy to announce that I finally decided to fully open-source Glukit, Glukloader and glukameleon (a little tool used in dev) under the <a href="https://github.com/alexandre-normand/glukit">MIT license</a>. The main blocker was that I needed to find a solution to keeping client ids and client secrets outside of the repository and I <a href="http://blog.mygluk.it/posts/safekeeper-keeping-your-secrets-out-of-git">found something I&rsquo;m happy with now</a>.</p>
+
+<p>I was hesitant to open-source Glukit for a while because much of its value resides in the centralized service that enables you to be compared to other diabetics. It&rsquo;s a bet but I&rsquo;m hoping that Glukit going open-source won&rsquo;t mean everyone starting their own instance. And even if that happens, that might not be the end of the world.</p>
+
+<p>Here are where the repositories can be found:</p>
+
+<ul>
+<li><p><a href="http://www.mygluk.it/">Glukit</a>, the main app, written in Go: <a href="https://github.com/alexandre-normand/glukit">https://github.com/alexandre-normand/glukit</a>.</p></li>
+
+<li><p><a href="https://github.com/alexandre-normand/glukloader">Glukloader</a>, the OS X uploader, written in Objective-C: <a href="https://github.com/alexandre-normand/glukloader">https://github.com/alexandre-normand/glukloader</a>.</p></li>
+
+<li><p><a href="https://github.com/alexandre-normand/glukameleon">glukameleon</a>, a command-line tool to convert Dexcom Studio XML files into json files understood by glukit, written in Go: <a href="https://github.com/alexandre-normand/glukameleon">https://github.com/alexandre-normand/glukameleon</a>.</p></li>
+
+<li><p><a href="https://github.com/alexandre-normand/safekeeper">safekeeper</a>, a command-line tool to use with <a href="http://blog.golang.org/generate">go:generate</a> to keep secrets safe from the git history by generating code from environment variables, written in Go: <a href="https://github.com/alexandre-normand/safekeeper">https://github.com/alexandre-normand/safekeeper</a>.</p></li>
+</ul>
+
+<p>If you decide to grab the code and try hacking and find yourself lost, don&rsquo;t hesitate to <a href="mailto:alexandre.normand@mygluk.it">get in touch</a>.</p>
+
+<p>Cheers!</p>
+
+       </div>   
+ </div>          
+    
+      </div>
+    </div>
+<script>
+    window._gaq = [
+        ['_setAccount', 'UA-52689137-1'],
+        ['_trackPageview'],
+        ['_trackPageLoadTime']
+    ];
+    Modernizr.load({
+        load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+</script>
+
+</body>
+</html>
