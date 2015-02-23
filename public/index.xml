@@ -53,7 +53,7 @@
 
 &lt;h3 id=&#34;toc_0&#34;&gt;Enter safekeeper&lt;/h3&gt;
 
-&lt;p&gt;Based on the &lt;a href=&#34;http://blog.golang.org/generate&#34;&gt;go generate&lt;/a&gt; examples, I set myself out to create a command-line tool that would take a few inputs and generate a file to be git ignored containing all application secrets. You have to follow the instructions to get a nice integration but once it&amp;rsquo;s set up, developers can set their secrets in their environment and then they just have to run &lt;code&gt;go generate&lt;/code&gt; or &lt;code&gt;goapp generate&lt;/code&gt; to get them into the code to deploy or run.&lt;/p&gt;
+&lt;p&gt;Based on the &lt;a href=&#34;http://blog.golang.org/generate&#34;&gt;go generate&lt;/a&gt; examples, I set myself out to create a command-line tool that would take a few inputs and generate a file to be git ignored containing all application secrets. You have to &lt;a href=&#34;https://github.com/alexandre-normand/safekeeper/blob/master/README.md&#34;&gt;follow the instructions&lt;/a&gt; to get a nice integration but once it&amp;rsquo;s set up, developers can set their secrets in their environment and then they just have to run &lt;code&gt;go generate&lt;/code&gt; or &lt;code&gt;goapp generate&lt;/code&gt; to get them into the code to deploy or run.&lt;/p&gt;
 
 &lt;p&gt;I tried to include a detailed example of how it can be used effectively but &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;let me know&lt;/a&gt; if you find anything missing.&lt;/p&gt;
 
