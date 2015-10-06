@@ -7,7 +7,25 @@
     <language>en-us</language>
     
     
-    <updated>Sun, 27 Sep 2015 22:00:00 PDT</updated>
+    <updated>Mon, 05 Oct 2015 21:00:00 PDT</updated>
+    
+    <item>
+      <title>Glukloader 1.0.5</title>
+      <link>http://blog.mygluk.it/posts/glukloader-1.0.5/</link>
+      <pubDate>Mon, 05 Oct 2015 21:00:00 PDT</pubDate>
+      
+      <guid>http://blog.mygluk.it/posts/glukloader-1.0.5/</guid>
+      <description>&lt;p&gt;Just after &lt;code&gt;Glukloader 1.0.4&lt;/code&gt;, I upgraded to &lt;code&gt;El Capitan&lt;/code&gt; (OS X 10.11) to find that &lt;code&gt;Glukloader&lt;/code&gt; wasn&amp;rsquo;t working anymore (not synching).
+It seems that the behavior regarding an internal event changed in 10.11. I found an alternative and that&amp;rsquo;s what&amp;rsquo;s new in &lt;code&gt;Glukloader 1.0.5&lt;/code&gt;. I also reverted
+a change from &lt;code&gt;1.0.4&lt;/code&gt; to try and address instability issues when the receiver was plugged in on a Mac going idle. After some reading, I realized that this
+is something that &lt;a href=&#34;https://github.com/armadsen/ORSSerialPort&#34;&gt;ORSSerialPort&lt;/a&gt; was supposed to be handling gracefully so I decided to upgrade to the latest
+release (which has a few related fixes) and see where this would get me.&lt;/p&gt;
+
+&lt;p&gt;So, if you see this bug with &lt;code&gt;1.0.5&lt;/code&gt;, please contact me.&lt;/p&gt;
+
+&lt;p&gt;Grab the latest build &lt;a href=&#34;https://dl.dropboxusercontent.com/u/3208429/glukloader%201.0.5.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Glukloader 1.0.4</title>
