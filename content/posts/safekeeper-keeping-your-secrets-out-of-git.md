@@ -5,7 +5,7 @@ layout: post
 Title: Safekeeper, Keeping Your Go Secrets Out of Git
 ---
 
-I've been wanting to open-source [Glukit](http://www.mygluk.it/) for a while but I had to find a way to keep the client ids/secrets safe and outside of git before I could do so. 
+I've been wanting to open-source [Glukit](https://mygluk.it/) for a while but I had to find a way to keep the client ids/secrets safe and outside of git before I could do so. 
 
 Since Glukit runs on the Google App Engine, it can't itself just read the sensitive information from environment variables. I read a post that [suggested storing the secret keys in the datastore](http://pseudony.ms/blags/secret-keys-gae.html) but I had quite a few and felt like this solution lacked good integration in the development flow. 
 

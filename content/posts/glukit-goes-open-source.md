@@ -11,7 +11,7 @@ I was hesitant to open-source Glukit for a while because much of its value resid
 
 Here are where the repositories can be found:
 
-* [Glukit](http://www.mygluk.it/), the main app, written in Go: [https://github.com/alexandre-normand/glukit](https://github.com/alexandre-normand/glukit).
+* [Glukit](https://mygluk.it/), the main app, written in Go: [https://github.com/alexandre-normand/glukit](https://github.com/alexandre-normand/glukit).
 
 * [Glukloader](https://github.com/alexandre-normand/glukloader), the OS X uploader, written in Objective-C: [https://github.com/alexandre-normand/glukloader](https://github.com/alexandre-normand/glukloader).
 
