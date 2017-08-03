@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
         <link rel="stylesheet" href="http://blog.mygluk.it/css/gumby.css">
         
-    <script src="/bower_components/gumby/js/libs/modernizr-2.6.2.min.js"></script>
+    <script src="http://blog.mygluk.it/bower_components/gumby/js/libs/modernizr-2.6.2.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <script gumby-touch="js/libs" src="bower_components/gumby/js/libs/gumby.js"></script>
     <script src="bower_components/gumby/js/libs/ui/gumby.retina.js"></script>
@@ -44,11 +44,11 @@
             <a class="toggle" gumby-trigger="#landing-navigation > ul" href="#"><i class="icon-menu"></i></a>
             <h1 class="four columns logo">
                 <a href="http://blog.mygluk.it/">
-                    <img src="/images/logo-blog.png" gumby-retina="">
+                    <img src="http://blog.mygluk.it/images/logo-blog.png" gumby-retina="">
                 </a>                
             </h1>
             <ul class="push_two eight columns">
-                <li><a href="http://www.mygluk.it"><i class="icon-rocket"></i> Glukit</a></li>  
+                <li><a href="https://mygluk.it"><i class="icon-rocket"></i> Glukit</a></li>  
                 <li><a href="http://blog.mygluk.it/index.xml"><i class="icon-rss"></i></a></li>
             </ul>
         </div>
@@ -62,13 +62,13 @@
        <div class="post content">
         
 
-<p>I&rsquo;ve been wanting to open-source <a href="http://www.mygluk.it/">Glukit</a> for a while but I had to find a way to keep the client ids/secrets safe and outside of git before I could do so.</p>
+<p>I&rsquo;ve been wanting to open-source <a href="https://mygluk.it/">Glukit</a> for a while but I had to find a way to keep the client ids/secrets safe and outside of git before I could do so.</p>
 
 <p>Since Glukit runs on the Google App Engine, it can&rsquo;t itself just read the sensitive information from environment variables. I read a post that <a href="http://pseudony.ms/blags/secret-keys-gae.html">suggested storing the secret keys in the datastore</a> but I had quite a few and felt like this solution lacked good integration in the development flow.</p>
 
 <p>After reading about <a href="http://blog.golang.org/generate">go generate</a>, I thought that this might be a good use for it. If I could get a way to use <a href="http://blog.golang.org/generate">go generate</a> and generate my app secrets into code that was going to be ommitted from the repository, I&rsquo;d have something relatively simple and convenient.</p>
 
-<h3 id="toc_0">Enter safekeeper</h3>
+<h3 id="enter-safekeeper">Enter safekeeper</h3>
 
 <p>Based on the <a href="http://blog.golang.org/generate">go generate</a> examples, I set myself out to create a command-line tool that would take a few inputs and generate a file to be git ignored containing all application secrets. You have to <a href="https://github.com/alexandre-normand/safekeeper/blob/master/README.md">follow the instructions</a> to get a nice integration but once it&rsquo;s set up, developers can set their secrets in their environment and then they just have to run <code>go generate</code> or <code>goapp generate</code> to get them into the code to deploy or run.</p>
 

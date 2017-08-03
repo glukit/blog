@@ -15,7 +15,7 @@
     
         <link rel="stylesheet" href="http://blog.mygluk.it/css/gumby.css">
         
-    <script src="/bower_components/gumby/js/libs/modernizr-2.6.2.min.js"></script>
+    <script src="http://blog.mygluk.it/bower_components/gumby/js/libs/modernizr-2.6.2.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <script gumby-touch="js/libs" src="bower_components/gumby/js/libs/gumby.js"></script>
     <script src="bower_components/gumby/js/libs/ui/gumby.retina.js"></script>
@@ -45,11 +45,11 @@
             <a class="toggle" gumby-trigger="#landing-navigation > ul" href="#"><i class="icon-menu"></i></a>
             <h1 class="four columns logo">
                 <a href="http://blog.mygluk.it/">
-                    <img src="/images/logo-blog.png" gumby-retina="">
+                    <img src="http://blog.mygluk.it/images/logo-blog.png" gumby-retina="">
                 </a>                
             </h1>
             <ul class="push_two eight columns">
-                <li><a href="http://www.mygluk.it"><i class="icon-rocket"></i> Glukit</a></li>  
+                <li><a href="https://mygluk.it"><i class="icon-rocket"></i> Glukit</a></li>  
                 <li><a href="http://blog.mygluk.it/index.xml"><i class="icon-rss"></i></a></li>
             </ul>
         </div>
@@ -105,7 +105,7 @@ release (which has a few related fixes) and see where this would get me.</p>
 <p>Here are where the repositories can be found:</p>
 
 <ul>
-<li><p><a href="http://www.mygluk.it/">Glukit</a>, the main app, written in Go: <a href="https://github.com/alexandre-normand/glukit">https://github.com/alexandre-normand/glukit</a>.</p></li>
+<li><p><a href="https://mygluk.it/">Glukit</a>, the main app, written in Go: <a href="https://github.com/alexandre-normand/glukit">https://github.com/alexandre-normand/glukit</a>.</p></li>
 
 <li><p><a href="https://github.com/alexandre-normand/glukloader">Glukloader</a>, the OS X uploader, written in Objective-C: <a href="https://github.com/alexandre-normand/glukloader">https://github.com/alexandre-normand/glukloader</a>.</p></li>
 
@@ -128,13 +128,13 @@ release (which has a few related fixes) and see where this would get me.</p>
        <div class="post content">
         
 
-<p>I&rsquo;ve been wanting to open-source <a href="http://www.mygluk.it/">Glukit</a> for a while but I had to find a way to keep the client ids/secrets safe and outside of git before I could do so.</p>
+<p>I&rsquo;ve been wanting to open-source <a href="https://mygluk.it/">Glukit</a> for a while but I had to find a way to keep the client ids/secrets safe and outside of git before I could do so.</p>
 
 <p>Since Glukit runs on the Google App Engine, it can&rsquo;t itself just read the sensitive information from environment variables. I read a post that <a href="http://pseudony.ms/blags/secret-keys-gae.html">suggested storing the secret keys in the datastore</a> but I had quite a few and felt like this solution lacked good integration in the development flow.</p>
 
 <p>After reading about <a href="http://blog.golang.org/generate">go generate</a>, I thought that this might be a good use for it. If I could get a way to use <a href="http://blog.golang.org/generate">go generate</a> and generate my app secrets into code that was going to be ommitted from the repository, I&rsquo;d have something relatively simple and convenient.</p>
 
-<h3 id="toc_0">Enter safekeeper</h3>
+<h3 id="enter-safekeeper">Enter safekeeper</h3>
 
 <p>Based on the <a href="http://blog.golang.org/generate">go generate</a> examples, I set myself out to create a command-line tool that would take a few inputs and generate a file to be git ignored containing all application secrets. You have to <a href="https://github.com/alexandre-normand/safekeeper/blob/master/README.md">follow the instructions</a> to get a nice integration but once it&rsquo;s set up, developers can set their secrets in their environment and then they just have to run <code>go generate</code> or <code>goapp generate</code> to get them into the code to deploy or run.</p>
 
@@ -228,13 +228,13 @@ release (which has a few related fixes) and see where this would get me.</p>
        <div class="post content">
         
 
-<p>I&rsquo;m currently the sole developer behind <a href="http://www.mygluk.it">glukit</a> but, like I mentionned in my <a href="http://blog.mygluk.it/posts/introduction">intro post</a>, I&rsquo;m feeling a bit drained about the 17 months of uninterrupted work on it. Today, I&rsquo;d like to call out to diabetic developers who would be interested in pushing <a href="http://www.mygluk.it">glukit</a> further.</p>
+<p>I&rsquo;m currently the sole developer behind <a href="https://mygluk.it">glukit</a> but, like I mentionned in my <a href="http://blog.mygluk.it/posts/introduction">intro post</a>, I&rsquo;m feeling a bit drained about the 17 months of uninterrupted work on it. Today, I&rsquo;d like to call out to diabetic developers who would be interested in pushing <a href="https://mygluk.it">glukit</a> further.</p>
 
-<h3 id="toc_0">What&rsquo;s Coming</h3>
+<h3 id="what-s-coming">What&rsquo;s Coming</h3>
 
 <p>As of today, the main feature of glukit is the comparison with a &ldquo;steady sailor&rdquo;. The steady sailor at the moment is the diabetic who has the best glukit score. And to make things more interesting, I&rsquo;ve recently excluded myself from the pool of eligible users.</p>
 
-<p>The next features I&rsquo;d personally like to see in <a href="http://www.mygluk.it">glukit</a> are:</p>
+<p>The next features I&rsquo;d personally like to see in <a href="https://mygluk.it">glukit</a> are:</p>
 
 <ol>
 <li>a1c prediction</li>
@@ -243,16 +243,16 @@ release (which has a few related fixes) and see where this would get me.</p>
 
 <p>Following that, I&rsquo;d like to add more behavioral science nudges and potentially play with different ideas regarding the normative comparisons (aggregate comparisons with a &ldquo;steady sailors&rdquo; group and the average).</p>
 
-<p>There&rsquo;s also some ongoing efforts to enable 3rd party uploaders to push data to <a href="http://www.mygluk.it">glukit</a> and enable people that aren&rsquo;t running on OS X to use it.</p>
+<p>There&rsquo;s also some ongoing efforts to enable 3rd party uploaders to push data to <a href="https://mygluk.it">glukit</a> and enable people that aren&rsquo;t running on OS X to use it.</p>
 
-<h3 id="toc_1">The Technology</h3>
+<h3 id="the-technology">The Technology</h3>
 
 <p>Glukloader, the Mac OS X uploader is written in Objective-C. Glukit itself was written in <a href="http://golang.org/">Go</a> (and yes! Go is a lot of fun and it&rsquo;s easy to learn) and runs on google app engine.
-<a href="http://www.mygluk.it">glukit</a>&rsquo;s front-end uses the <a href="http://gumbyframework.com/">gumby framework</a>. Both Glukloader and <a href="http://www.mygluk.it">glukit</a>&rsquo;s code is hosted on github.</p>
+<a href="https://mygluk.it">glukit</a>&rsquo;s front-end uses the <a href="http://gumbyframework.com/">gumby framework</a>. Both Glukloader and <a href="https://mygluk.it">glukit</a>&rsquo;s code is hosted on github.</p>
 
-<h3 id="toc_2">Get in Touch</h3>
+<h3 id="get-in-touch">Get in Touch</h3>
 
-<p>If that sounds like something interesting to you, I think it could be a lot of fun. <a href="http://www.mygluk.it">Glukit</a> is a fully functional app but I have a nice backlog of exciting features that I think would be awesome for it. If you&rsquo;d like to give this a try, <a href="mailto:alexandre.normand@mygluk.it">talk to me</a>. I&rsquo;d love to hear from you.</p>
+<p>If that sounds like something interesting to you, I think it could be a lot of fun. <a href="https://mygluk.it">Glukit</a> is a fully functional app but I have a nice backlog of exciting features that I think would be awesome for it. If you&rsquo;d like to give this a try, <a href="mailto:alexandre.normand@mygluk.it">talk to me</a>. I&rsquo;d love to hear from you.</p>
 
 <p>Peace,</p>
 
@@ -268,7 +268,7 @@ release (which has a few related fixes) and see where this would get me.</p>
 
 <p>Glukit had been built with multiple glucose units in mind but, to minimize the scope of the initial testing, the front-end had been made to support only mg/dL. I&rsquo;m happy to say that this is now no longer the case. If your Dexcom is set to mmol/L, you&rsquo;ll now be able to browse your data in the unit you&rsquo;re used to.</p>
 
-<h4 id="toc_0">Glukloader Required Upgrade</h4>
+<h4 id="glukloader-required-upgrade">Glukloader Required Upgrade</h4>
 
 <p>In the troubleshooting process with a friend from UK, I found a critical bug in my interpretation of the glucose values when the unit was mmol/L. If you&rsquo;re a mmol user, you need to upgrade to the most recent build to get proper values: <a href="https://www.dropbox.com/s/5vrtaofgx4curih/glukloader%201.0-rc23.dmg?dl=1">Glukloader 1.0-rc23</a>. You should also <a href="mailto:alexandre.normand@mygluk.it">drop me a line</a> so we can reset your data uploaded with previous versions.</p>
 
@@ -288,17 +288,17 @@ release (which has a few related fixes) and see where this would get me.</p>
 
 <p>The last week or so has been pretty interesting (see this <a href="http://www.reddit.com/r/diabetes/comments/2ei3qe/type_1_diabetic_and_software_engineer_i_thought_i/">reddit post</a> for some details). The first few days showed how bad assumptions can quickly become blockers and then how other assumptions can manifest themselves in more subtle ways.</p>
 
-<h2 id="toc_0">Time Resolution Bugs</h2>
+<h2 id="time-resolution-bugs">Time Resolution Bugs</h2>
 
 <p>I talked about the first blocker in the previous post but this is more about the latter. I had assumed that the Dexcom&rsquo;s internal time was standard. That is, I assumed that two receivers would have different display times but the same system time at any given point in time. That proved to be a bad assumption to make. <a href="https://github.com/ChickenBeard">ChickenBeard</a> again helped with this bug by testing my numerous builds and being patient with my varied attemps at finding a more robust solution.</p>
 
 <p>I&rsquo;m happy to say that it looks like my new approach is now working. The bad news is that previously uploaded data is bad and locally stored archives of your data (a copy that Glukloader keeps for you and for resending data in case of disasters) is also faulty (potentially). The result is bad times (it looks like bad timezone handling). It&rsquo;s not necessarily dramatic but I&rsquo;d like to sanitize the data at some point. More to come as I think about this and talk to a few more of you to understand the impact.</p>
 
-<h2 id="toc_1">Growl Notifications</h2>
+<h2 id="growl-notifications">Growl Notifications</h2>
 
 <p>Since Glukloader has proven to be very important to the whole interaction with Glukit, I decided to follow <a href="http://www.reddit.com/user/edwhittle">edwhittle</a>&rsquo;s suggestion and add some user feedback with it.</p>
 
-<h2 id="toc_2">Download</h2>
+<h2 id="download">Download</h2>
 
 <p>Here&rsquo;s the link to the new build with both of those: <a href="https://www.dropbox.com/s/7wjh03q9ch4sd87/glukloader%201.0-rc20.dmg?dl=1">Glukloader 1.0-rc20</a>.</p>
 
@@ -344,21 +344,21 @@ release (which has a few related fixes) and see where this would get me.</p>
 
 <p>I do it because I need to create <em>something</em>. I do it because I know that the result might be worth it. I do it because I know that working on something brings a great satisfaction only on successful completion of it.</p>
 
-<p>I started working on <a href="http://www.mygluk.it">glukit</a> in March 2013. We&rsquo;re in August 2014, 16 months later. After an initial functional app, I had a good idea of what the minimal set of features I wanted in the 1.0 preview release. And I wanted to get that first release out. So I committed myself to making 1 commit every day until I got all of it done.</p>
+<p>I started working on <a href="https://mygluk.it">glukit</a> in March 2013. We&rsquo;re in August 2014, 16 months later. After an initial functional app, I had a good idea of what the minimal set of features I wanted in the 1.0 preview release. And I wanted to get that first release out. So I committed myself to making 1 commit every day until I got all of it done.</p>
 
 <p>This got me a streak of <a href="https://farm6.staticflickr.com/5561/15004911492_19aca9abd5_c.jpg">200 days of commits</a> on <a href="http://github.com">github</a>. The funny thing is that I realized only after getting hooked that my streak would only ever be visible to me because my repositories are private. But that&rsquo;s not why the feature is powerful. There might be a social aspect to it but, to me, this was another behavioral science trick to help me get to a desired outcome.</p>
 
-<h3 id="toc_0">The Dark Side</h3>
+<h3 id="the-dark-side">The Dark Side</h3>
 
 <p>Now what? I&rsquo;ve gone through the making of successful creative projects like this one before. The hard part if always the life <em>after</em>. The truth is that I feel exhausted from having worked so hard without a pause for so long. That hard work and dedication got me to a significant milestone. But, now at that milestone, it&rsquo;s hard to find the energy to commit to the next phase.</p>
 
-<h4 id="toc_1">Recharging</h4>
+<h4 id="recharging">Recharging</h4>
 
 <p>The first day of my 2 weeks family vacation was the day I made the commit that marked the 200th day. I knew I had to wrap-up before losing focus. I&rsquo;m afraid that taking a break will get me to move away enough that I won&rsquo;t want to get back to it. I might get drawn to something new like drawing or writing a book.</p>
 
-<h4 id="toc_2">You</h4>
+<h4 id="you">You</h4>
 
-<p>But <a href="http://www.mygluk.it/">glukit</a> is also different. I did commit before I left that I would return from vacation to announce the preview release of <a href="http://www.mygluk.it/">glukit</a>. If I was successful in creating a convincing presentation of my idea for a <em>better</em>, behavioral science powered diabetes application, maybe you&rsquo;ll have something to tell me. Comments, suggestions, requests. I worked on <a href="http://www.mygluk.it/">glukit</a> for so long that I can&rsquo;t see clearly anymore if it&rsquo;s any good or if it can be effective like I imagined it.</p>
+<p>But <a href="https://mygluk.it/">glukit</a> is also different. I did commit before I left that I would return from vacation to announce the preview release of <a href="https://mygluk.it/">glukit</a>. If I was successful in creating a convincing presentation of my idea for a <em>better</em>, behavioral science powered diabetes application, maybe you&rsquo;ll have something to tell me. Comments, suggestions, requests. I worked on <a href="https://mygluk.it/">glukit</a> for so long that I can&rsquo;t see clearly anymore if it&rsquo;s any good or if it can be effective like I imagined it.</p>
 
 <p>You&rsquo;ll <a href="mailto:alexandre.normand@mygluk.it">tell me</a>.</p>
 
