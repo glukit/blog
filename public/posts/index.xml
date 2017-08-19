@@ -23,7 +23,7 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
 
 &lt;p&gt;So, if you see this bug with &lt;code&gt;1.0.5&lt;/code&gt;, please contact me.&lt;/p&gt;
 
-&lt;p&gt;Grab the latest build &lt;a href=&#34;https://dl.dropboxusercontent.com/u/3208429/glukloader%201.0.5.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Grab the latest build &lt;a href=&#34;https://www.dropbox.com/s/5jr8wrgq5bmspbx/glukloader%201.0.5.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -39,7 +39,7 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
 
 &lt;p&gt;If you did have mysterious issues with your peripherals not responding after going idle, I apologize. Hopefully, this will solve that mystery.&lt;/p&gt;
 
-&lt;p&gt;Grab the latest build &lt;a href=&#34;https://dl.dropboxusercontent.com/u/3208429/glukloader%201.0.4.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Grab the latest build &lt;a href=&#34;https://www.dropbox.com/s/8nmjk1pi93p4kcw/glukloader%201.0.4.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -103,7 +103,7 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <guid>http://blog.mygluk.it/posts/glukloader-1.0.2/</guid>
       <description>&lt;p&gt;I got a log file in my inbox earlier this evening. Sometimes, people write an accompanying email describing a problem but this time, I only had the log file. It didn&amp;rsquo;t take long to see the crash and stack trace in the logs. After a quick investigation, I found that there was a bug when the last sync had been done long enough ago that the last page synched didn&amp;rsquo;t exist anymore on the receiver. That was an easy fix and I just pushed the release with the bugfix.&lt;/p&gt;
 
-&lt;p&gt;Grab the latest build &lt;a href=&#34;https://dl.dropboxusercontent.com/u/3208429/glukloader%201.0.2.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Grab the latest build &lt;a href=&#34;https://www.dropbox.com/s/9gywympy35u7x94/glukloader%201.0.2.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thanks to the anonymous bug report!&lt;/p&gt;
 </description>

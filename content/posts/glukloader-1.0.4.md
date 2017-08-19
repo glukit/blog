@@ -11,4 +11,4 @@ Or maybe it was all a coincidence but either way, `Glukloader 1.0.4` is being a 
 
 If you did have mysterious issues with your peripherals not responding after going idle, I apologize. Hopefully, this will solve that mystery. 
 
-Grab the latest build [here](https://dl.dropboxusercontent.com/u/3208429/glukloader%201.0.4.dmg?dl=1).
+Grab the latest build [here](https://www.dropbox.com/s/8nmjk1pi93p4kcw/glukloader%201.0.4.dmg?dl=1).

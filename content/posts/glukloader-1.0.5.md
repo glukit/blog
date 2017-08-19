@@ -13,4 +13,4 @@ release (which has a few related fixes) and see where this would get me.
 
 So, if you see this bug with `1.0.5`, please contact me. 
 
-Grab the latest build [here](https://dl.dropboxusercontent.com/u/3208429/glukloader%201.0.5.dmg?dl=1).
+Grab the latest build [here](https://www.dropbox.com/s/5jr8wrgq5bmspbx/glukloader%201.0.5.dmg?dl=1).
