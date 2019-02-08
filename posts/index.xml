@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Oct 2015 21:00:00 -0700</lastBuildDate>
-    <atom:link href="http://blog.mygluk.it/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.mygluk.it/posts/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Glukloader 1.0.5</title>
@@ -15,16 +17,7 @@
       <pubDate>Mon, 05 Oct 2015 21:00:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/glukloader-1.0.5/</guid>
-      <description>&lt;p&gt;Just after &lt;code&gt;Glukloader 1.0.4&lt;/code&gt;, I upgraded to &lt;code&gt;El Capitan&lt;/code&gt; (OS X 10.11) to find that &lt;code&gt;Glukloader&lt;/code&gt; wasn&amp;rsquo;t working anymore (not synching).
-It seems that the behavior regarding an internal event changed in 10.11. I found an alternative and that&amp;rsquo;s what&amp;rsquo;s new in &lt;code&gt;Glukloader 1.0.5&lt;/code&gt;. I also reverted
-a change from &lt;code&gt;1.0.4&lt;/code&gt; to try and address instability issues when the receiver was plugged in on a Mac going idle. After some reading, I realized that this
-is something that &lt;a href=&#34;https://github.com/armadsen/ORSSerialPort&#34;&gt;ORSSerialPort&lt;/a&gt; was supposed to be handling gracefully so I decided to upgrade to the latest
-release (which has a few related fixes) and see where this would get me.&lt;/p&gt;
-
-&lt;p&gt;So, if you see this bug with &lt;code&gt;1.0.5&lt;/code&gt;, please contact me.&lt;/p&gt;
-
-&lt;p&gt;Grab the latest build &lt;a href=&#34;https://www.dropbox.com/s/5jr8wrgq5bmspbx/glukloader%201.0.5.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Just after Glukloader 1.0.4, I upgraded to El Capitan (OS X 10.11) to find that Glukloader wasn&amp;rsquo;t working anymore (not synching). It seems that the behavior regarding an internal event changed in 10.11. I found an alternative and that&amp;rsquo;s what&amp;rsquo;s new in Glukloader 1.0.5. I also reverted a change from 1.0.4 to try and address instability issues when the receiver was plugged in on a Mac going idle. After some reading, I realized that this is something that ORSSerialPort was supposed to be handling gracefully so I decided to upgrade to the latest release (which has a few related fixes) and see where this would get me.</description>
     </item>
     
     <item>
@@ -33,14 +26,7 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Sun, 27 Sep 2015 22:00:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/glukloader-1.0.4/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s a bugfix release for something I hope I was the only one experiencing. I had noticed that my keyboard and mouse (and USB peripherals) on &lt;code&gt;iMac&lt;/code&gt; would sometime stop working after it going to sleep. At first, I suspected a hardware issue but I started noticing one day that I had my Dexcom receiver plugged in before my Mac went idle. And it happened a few more times when my receiver was plugged in again. So I cleaned up a little the management of the USB device and made sure it would be closed after a successful sync rather than keeping it open. After some testing, it looks like that might have been it.&lt;/p&gt;
-
-&lt;p&gt;Or maybe it was all a coincidence but either way, &lt;code&gt;Glukloader 1.0.4&lt;/code&gt; is being a little more conservative in closing the resources and it&amp;rsquo;s for the best.&lt;/p&gt;
-
-&lt;p&gt;If you did have mysterious issues with your peripherals not responding after going idle, I apologize. Hopefully, this will solve that mystery.&lt;/p&gt;
-
-&lt;p&gt;Grab the latest build &lt;a href=&#34;https://www.dropbox.com/s/8nmjk1pi93p4kcw/glukloader%201.0.4.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Here&amp;rsquo;s a bugfix release for something I hope I was the only one experiencing. I had noticed that my keyboard and mouse (and USB peripherals) on iMac would sometime stop working after it going to sleep. At first, I suspected a hardware issue but I started noticing one day that I had my Dexcom receiver plugged in before my Mac went idle. And it happened a few more times when my receiver was plugged in again.</description>
     </item>
     
     <item>
@@ -49,26 +35,8 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Sun, 22 Feb 2015 10:30:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/glukit-goes-open-source/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m happy to announce that I finally decided to fully open-source Glukit, Glukloader and glukameleon (a little tool used in dev) under the &lt;a href=&#34;https://github.com/alexandre-normand/glukit&#34;&gt;MIT license&lt;/a&gt;. The main blocker was that I needed to find a solution to keeping client ids and client secrets outside of the repository and I &lt;a href=&#34;http://blog.mygluk.it/posts/safekeeper-keeping-your-secrets-out-of-git&#34;&gt;found something I&amp;rsquo;m happy with now&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I was hesitant to open-source Glukit for a while because much of its value resides in the centralized service that enables you to be compared to other diabetics. It&amp;rsquo;s a bet but I&amp;rsquo;m hoping that Glukit going open-source won&amp;rsquo;t mean everyone starting their own instance. And even if that happens, that might not be the end of the world.&lt;/p&gt;
-
-&lt;p&gt;Here are where the repositories can be found:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://mygluk.it/&#34;&gt;Glukit&lt;/a&gt;, the main app, written in Go: &lt;a href=&#34;https://github.com/alexandre-normand/glukit&#34;&gt;https://github.com/alexandre-normand/glukit&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/alexandre-normand/glukloader&#34;&gt;Glukloader&lt;/a&gt;, the OS X uploader, written in Objective-C: &lt;a href=&#34;https://github.com/alexandre-normand/glukloader&#34;&gt;https://github.com/alexandre-normand/glukloader&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/alexandre-normand/glukameleon&#34;&gt;glukameleon&lt;/a&gt;, a command-line tool to convert Dexcom Studio XML files into json files understood by glukit, written in Go: &lt;a href=&#34;https://github.com/alexandre-normand/glukameleon&#34;&gt;https://github.com/alexandre-normand/glukameleon&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/alexandre-normand/safekeeper&#34;&gt;safekeeper&lt;/a&gt;, a command-line tool to use with &lt;a href=&#34;http://blog.golang.org/generate&#34;&gt;go:generate&lt;/a&gt; to keep secrets safe from the git history by generating code from environment variables, written in Go: &lt;a href=&#34;https://github.com/alexandre-normand/safekeeper&#34;&gt;https://github.com/alexandre-normand/safekeeper&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you decide to grab the code and try hacking and find yourself lost, don&amp;rsquo;t hesitate to &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;get in touch&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Cheers!&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m happy to announce that I finally decided to fully open-source Glukit, Glukloader and glukameleon (a little tool used in dev) under the MIT license. The main blocker was that I needed to find a solution to keeping client ids and client secrets outside of the repository and I found something I&amp;rsquo;m happy with now.
+I was hesitant to open-source Glukit for a while because much of its value resides in the centralized service that enables you to be compared to other diabetics.</description>
     </item>
     
     <item>
@@ -77,22 +45,8 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Sun, 22 Feb 2015 10:00:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/safekeeper-keeping-your-secrets-out-of-git/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve been wanting to open-source &lt;a href=&#34;https://mygluk.it/&#34;&gt;Glukit&lt;/a&gt; for a while but I had to find a way to keep the client ids/secrets safe and outside of git before I could do so.&lt;/p&gt;
-
-&lt;p&gt;Since Glukit runs on the Google App Engine, it can&amp;rsquo;t itself just read the sensitive information from environment variables. I read a post that &lt;a href=&#34;http://pseudony.ms/blags/secret-keys-gae.html&#34;&gt;suggested storing the secret keys in the datastore&lt;/a&gt; but I had quite a few and felt like this solution lacked good integration in the development flow.&lt;/p&gt;
-
-&lt;p&gt;After reading about &lt;a href=&#34;http://blog.golang.org/generate&#34;&gt;go generate&lt;/a&gt;, I thought that this might be a good use for it. If I could get a way to use &lt;a href=&#34;http://blog.golang.org/generate&#34;&gt;go generate&lt;/a&gt; and generate my app secrets into code that was going to be ommitted from the repository, I&amp;rsquo;d have something relatively simple and convenient.&lt;/p&gt;
-
-&lt;h3 id=&#34;enter-safekeeper&#34;&gt;Enter safekeeper&lt;/h3&gt;
-
-&lt;p&gt;Based on the &lt;a href=&#34;http://blog.golang.org/generate&#34;&gt;go generate&lt;/a&gt; examples, I set myself out to create a command-line tool that would take a few inputs and generate a file to be git ignored containing all application secrets. You have to &lt;a href=&#34;https://github.com/alexandre-normand/safekeeper/blob/master/README.md&#34;&gt;follow the instructions&lt;/a&gt; to get a nice integration but once it&amp;rsquo;s set up, developers can set their secrets in their environment and then they just have to run &lt;code&gt;go generate&lt;/code&gt; or &lt;code&gt;goapp generate&lt;/code&gt; to get them into the code to deploy or run.&lt;/p&gt;
-
-&lt;p&gt;I tried to include a detailed example of how it can be used effectively but &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;let me know&lt;/a&gt; if you find anything missing.&lt;/p&gt;
-
-&lt;p&gt;Cheers!&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve been wanting to open-source Glukit for a while but I had to find a way to keep the client ids/secrets safe and outside of git before I could do so.
+Since Glukit runs on the Google App Engine, it can&amp;rsquo;t itself just read the sensitive information from environment variables. I read a post that suggested storing the secret keys in the datastore but I had quite a few and felt like this solution lacked good integration in the development flow.</description>
     </item>
     
     <item>
@@ -101,12 +55,7 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Mon, 12 Jan 2015 10:00:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/glukloader-1.0.2/</guid>
-      <description>&lt;p&gt;I got a log file in my inbox earlier this evening. Sometimes, people write an accompanying email describing a problem but this time, I only had the log file. It didn&amp;rsquo;t take long to see the crash and stack trace in the logs. After a quick investigation, I found that there was a bug when the last sync had been done long enough ago that the last page synched didn&amp;rsquo;t exist anymore on the receiver. That was an easy fix and I just pushed the release with the bugfix.&lt;/p&gt;
-
-&lt;p&gt;Grab the latest build &lt;a href=&#34;https://www.dropbox.com/s/9gywympy35u7x94/glukloader%201.0.2.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks to the anonymous bug report!&lt;/p&gt;
-</description>
+      <description>I got a log file in my inbox earlier this evening. Sometimes, people write an accompanying email describing a problem but this time, I only had the log file. It didn&amp;rsquo;t take long to see the crash and stack trace in the logs. After a quick investigation, I found that there was a bug when the last sync had been done long enough ago that the last page synched didn&amp;rsquo;t exist anymore on the receiver.</description>
     </item>
     
     <item>
@@ -115,16 +64,8 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Tue, 06 Jan 2015 10:00:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/a1c-estimation-tweaks/</guid>
-      <description>&lt;p&gt;I just realized today that my a1c color wheel wasn&amp;rsquo;t rendering properly on Safari. It&amp;rsquo;s now fixed. If you were using Safari, now the a1c display should make a lot more sense. Firefox should also be covered if you&amp;rsquo;re using a recent version.&lt;/p&gt;
-
-&lt;p&gt;I also made a small tweak to the a1c calculation which should result in slightly higher values. I believe this should be more accurate but I don&amp;rsquo;t have enough samples to actually know for sure.&lt;/p&gt;
-
-&lt;p&gt;Again, I&amp;rsquo;d like to hear about your experience with this feature. Refer to my &lt;a href=&#34;http://blog.mygluk.it/posts/a1c-estimation&#34;&gt;previous post&lt;/a&gt; for my suggested experiment.&lt;/p&gt;
-
-&lt;p&gt;Don&amp;rsquo;t hesitate to tell me what your experience is with this. &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;Email me&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Cheers,&lt;/p&gt;
-</description>
+      <description>I just realized today that my a1c color wheel wasn&amp;rsquo;t rendering properly on Safari. It&amp;rsquo;s now fixed. If you were using Safari, now the a1c display should make a lot more sense. Firefox should also be covered if you&amp;rsquo;re using a recent version.
+I also made a small tweak to the a1c calculation which should result in slightly higher values. I believe this should be more accurate but I don&amp;rsquo;t have enough samples to actually know for sure.</description>
     </item>
     
     <item>
@@ -133,24 +74,10 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Fri, 19 Dec 2014 10:00:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/a1c-estimation/</guid>
-      <description>&lt;p&gt;This will be a quick feature annoucement post because I think most of you will understand it without much need for detailed explanation.&lt;/p&gt;
-
-&lt;p&gt;As of this evening, Glukit will now display an estimate of your a1c based on your most recent data available.&lt;/p&gt;
-
-&lt;p&gt;A few notes:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;At least 3 months of data is required for a value to be shown.&lt;/li&gt;
-&lt;li&gt;From the limited samples that I have, my a1c estimates seem to be lower than reality.&lt;/li&gt;
-&lt;li&gt;The A1C color wheel might been a bit aggressive at first glance. I debated internally whether or not to tune it down but decided not to in the end. The standard presented in Glukit is more in line with &lt;a href=&#34;http://www.amazon.com/Dr-Bernsteins-Diabetes-Solution-Achieving/dp/0316182699&#34;&gt;Dr. Richard Bernstein&amp;rsquo;s recommendations&lt;/a&gt; than what you&amp;rsquo;d see from the &lt;a href=&#34;http://www.diabetes.org/living-with-diabetes/treatment-and-care/blood-glucose-control/a1c/&#34;&gt;American Diabetes Association&lt;/a&gt;. If you haven&amp;rsquo;t read &lt;a href=&#34;http://www.amazon.com/Dr-Bernsteins-Diabetes-Solution-Achieving/dp/0316182699&#34;&gt;The Diabetes Solution&lt;/a&gt;, I highly recommend it. It definitely was a major factor in me getting my A1C down to 4.4.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I&amp;rsquo;d like to hear about your experience with this feature. For people with the desire to do so, one interesting experiment to run would be to check you estimate the day that you get your a1c tested. Write it down. When you get your a1c result, it would be interesting to compare the estimate with the actual value.&lt;/p&gt;
-
-&lt;p&gt;If you feel like running such an experiment, I&amp;rsquo;d love it if you could email me &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;your results&lt;/a&gt;. It would make it easier for me to improve the feature to provide more accurate estimates. And I promise that I won&amp;rsquo;t be judging.&lt;/p&gt;
-
-&lt;p&gt;Cheers,&lt;/p&gt;
-</description>
+      <description>This will be a quick feature annoucement post because I think most of you will understand it without much need for detailed explanation.
+As of this evening, Glukit will now display an estimate of your a1c based on your most recent data available.
+A few notes:
+ At least 3 months of data is required for a value to be shown. From the limited samples that I have, my a1c estimates seem to be lower than reality.</description>
     </item>
     
     <item>
@@ -159,16 +86,8 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Thu, 13 Nov 2014 10:00:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/new-dexcom-firmware-new-glukloader/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Update: Added additional logic to seemlessly handle receiver being reset. Link updated below.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Dexcom released their new &lt;a href=&#34;https://store.dexcom.com/user/login?destination=update-tool&#34;&gt;505 firmware version&lt;/a&gt; earlier this week and I was happy to give it a try. I haven&amp;rsquo;t used the new version yet to confirm how better it is, but it&amp;rsquo;s looking promising. With that news also came the realization that Glukloader wasn&amp;rsquo;t quite ready for the case of receivers being reset. Thankfully, addressing it wasn&amp;rsquo;t very difficult.&lt;/p&gt;
-
-&lt;p&gt;I also got rid of the colors in the Glukloader menu bar icon. Glukloader should now fit more elegantly in the menu bar next to other black and white icons.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s it. You&amp;rsquo;ll find the new version &lt;a href=&#34;https://dl.dropboxusercontent.com/u/3208429/glukloader%201.0.1.dmg?dl=1&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Cheers,&lt;/p&gt;
-</description>
+      <description>Update: Added additional logic to seemlessly handle receiver being reset. Link updated below.
+Dexcom released their new 505 firmware version earlier this week and I was happy to give it a try. I haven&amp;rsquo;t used the new version yet to confirm how better it is, but it&amp;rsquo;s looking promising. With that news also came the realization that Glukloader wasn&amp;rsquo;t quite ready for the case of receivers being reset. Thankfully, addressing it wasn&amp;rsquo;t very difficult.</description>
     </item>
     
     <item>
@@ -177,36 +96,8 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Sat, 25 Oct 2014 08:30:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/call-out-to-devs/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;m currently the sole developer behind &lt;a href=&#34;https://mygluk.it&#34;&gt;glukit&lt;/a&gt; but, like I mentionned in my &lt;a href=&#34;http://blog.mygluk.it/posts/introduction&#34;&gt;intro post&lt;/a&gt;, I&amp;rsquo;m feeling a bit drained about the 17 months of uninterrupted work on it. Today, I&amp;rsquo;d like to call out to diabetic developers who would be interested in pushing &lt;a href=&#34;https://mygluk.it&#34;&gt;glukit&lt;/a&gt; further.&lt;/p&gt;
-
-&lt;h3 id=&#34;what-s-coming&#34;&gt;What&amp;rsquo;s Coming&lt;/h3&gt;
-
-&lt;p&gt;As of today, the main feature of glukit is the comparison with a &amp;ldquo;steady sailor&amp;rdquo;. The steady sailor at the moment is the diabetic who has the best glukit score. And to make things more interesting, I&amp;rsquo;ve recently excluded myself from the pool of eligible users.&lt;/p&gt;
-
-&lt;p&gt;The next features I&amp;rsquo;d personally like to see in &lt;a href=&#34;https://mygluk.it&#34;&gt;glukit&lt;/a&gt; are:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;a1c prediction&lt;/li&gt;
-&lt;li&gt;ability to challenge a friend to be your steady sailor&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Following that, I&amp;rsquo;d like to add more behavioral science nudges and potentially play with different ideas regarding the normative comparisons (aggregate comparisons with a &amp;ldquo;steady sailors&amp;rdquo; group and the average).&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s also some ongoing efforts to enable 3rd party uploaders to push data to &lt;a href=&#34;https://mygluk.it&#34;&gt;glukit&lt;/a&gt; and enable people that aren&amp;rsquo;t running on OS X to use it.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-technology&#34;&gt;The Technology&lt;/h3&gt;
-
-&lt;p&gt;Glukloader, the Mac OS X uploader is written in Objective-C. Glukit itself was written in &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt; (and yes! Go is a lot of fun and it&amp;rsquo;s easy to learn) and runs on google app engine.
-&lt;a href=&#34;https://mygluk.it&#34;&gt;glukit&lt;/a&gt;&amp;rsquo;s front-end uses the &lt;a href=&#34;http://gumbyframework.com/&#34;&gt;gumby framework&lt;/a&gt;. Both Glukloader and &lt;a href=&#34;https://mygluk.it&#34;&gt;glukit&lt;/a&gt;&amp;rsquo;s code is hosted on github.&lt;/p&gt;
-
-&lt;h3 id=&#34;get-in-touch&#34;&gt;Get in Touch&lt;/h3&gt;
-
-&lt;p&gt;If that sounds like something interesting to you, I think it could be a lot of fun. &lt;a href=&#34;https://mygluk.it&#34;&gt;Glukit&lt;/a&gt; is a fully functional app but I have a nice backlog of exciting features that I think would be awesome for it. If you&amp;rsquo;d like to give this a try, &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;talk to me&lt;/a&gt;. I&amp;rsquo;d love to hear from you.&lt;/p&gt;
-
-&lt;p&gt;Peace,&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m currently the sole developer behind glukit but, like I mentionned in my intro post, I&amp;rsquo;m feeling a bit drained about the 17 months of uninterrupted work on it. Today, I&amp;rsquo;d like to call out to diabetic developers who would be interested in pushing glukit further.
+What&amp;rsquo;s Coming As of today, the main feature of glukit is the comparison with a &amp;ldquo;steady sailor&amp;rdquo;. The steady sailor at the moment is the diabetic who has the best glukit score.</description>
     </item>
     
     <item>
@@ -215,18 +106,8 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Thu, 18 Sep 2014 21:01:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/mmol/</guid>
-      <description>
-
-&lt;p&gt;Glukit had been built with multiple glucose units in mind but, to minimize the scope of the initial testing, the front-end had been made to support only mg/dL. I&amp;rsquo;m happy to say that this is now no longer the case. If your Dexcom is set to mmol/L, you&amp;rsquo;ll now be able to browse your data in the unit you&amp;rsquo;re used to.&lt;/p&gt;
-
-&lt;h4 id=&#34;glukloader-required-upgrade&#34;&gt;Glukloader Required Upgrade&lt;/h4&gt;
-
-&lt;p&gt;In the troubleshooting process with a friend from UK, I found a critical bug in my interpretation of the glucose values when the unit was mmol/L. If you&amp;rsquo;re a mmol user, you need to upgrade to the most recent build to get proper values: &lt;a href=&#34;https://www.dropbox.com/s/5vrtaofgx4curih/glukloader%201.0-rc23.dmg?dl=1&#34;&gt;Glukloader 1.0-rc23&lt;/a&gt;. You should also &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;drop me a line&lt;/a&gt; so we can reset your data uploaded with previous versions.&lt;/p&gt;
-
-&lt;p&gt;The build also includes a handy new feature: emailing glukit logs with a simple one-click action (in the &amp;ldquo;Advanced&amp;rdquo; menu).&lt;/p&gt;
-
-&lt;p&gt;Peace,&lt;/p&gt;
-</description>
+      <description>Glukit had been built with multiple glucose units in mind but, to minimize the scope of the initial testing, the front-end had been made to support only mg/dL. I&amp;rsquo;m happy to say that this is now no longer the case. If your Dexcom is set to mmol/L, you&amp;rsquo;ll now be able to browse your data in the unit you&amp;rsquo;re used to.
+Glukloader Required Upgrade In the troubleshooting process with a friend from UK, I found a critical bug in my interpretation of the glucose values when the unit was mmol/L.</description>
     </item>
     
     <item>
@@ -235,28 +116,8 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Tue, 02 Sep 2014 22:04:00 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/glukloader-1.0-rc20/</guid>
-      <description>
-
-&lt;p&gt;The last week or so has been pretty interesting (see this &lt;a href=&#34;http://www.reddit.com/r/diabetes/comments/2ei3qe/type_1_diabetic_and_software_engineer_i_thought_i/&#34;&gt;reddit post&lt;/a&gt; for some details). The first few days showed how bad assumptions can quickly become blockers and then how other assumptions can manifest themselves in more subtle ways.&lt;/p&gt;
-
-&lt;h2 id=&#34;time-resolution-bugs&#34;&gt;Time Resolution Bugs&lt;/h2&gt;
-
-&lt;p&gt;I talked about the first blocker in the previous post but this is more about the latter. I had assumed that the Dexcom&amp;rsquo;s internal time was standard. That is, I assumed that two receivers would have different display times but the same system time at any given point in time. That proved to be a bad assumption to make. &lt;a href=&#34;https://github.com/ChickenBeard&#34;&gt;ChickenBeard&lt;/a&gt; again helped with this bug by testing my numerous builds and being patient with my varied attemps at finding a more robust solution.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m happy to say that it looks like my new approach is now working. The bad news is that previously uploaded data is bad and locally stored archives of your data (a copy that Glukloader keeps for you and for resending data in case of disasters) is also faulty (potentially). The result is bad times (it looks like bad timezone handling). It&amp;rsquo;s not necessarily dramatic but I&amp;rsquo;d like to sanitize the data at some point. More to come as I think about this and talk to a few more of you to understand the impact.&lt;/p&gt;
-
-&lt;h2 id=&#34;growl-notifications&#34;&gt;Growl Notifications&lt;/h2&gt;
-
-&lt;p&gt;Since Glukloader has proven to be very important to the whole interaction with Glukit, I decided to follow &lt;a href=&#34;http://www.reddit.com/user/edwhittle&#34;&gt;edwhittle&lt;/a&gt;&amp;rsquo;s suggestion and add some user feedback with it.&lt;/p&gt;
-
-&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
-
-&lt;p&gt;Here&amp;rsquo;s the link to the new build with both of those: &lt;a href=&#34;https://www.dropbox.com/s/7wjh03q9ch4sd87/glukloader%201.0-rc20.dmg?dl=1&#34;&gt;Glukloader 1.0-rc20&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Again, &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;talk to me&lt;/a&gt; if there&amp;rsquo;s anything on your mind.&lt;/p&gt;
-
-&lt;p&gt;Peace,&lt;/p&gt;
-</description>
+      <description>The last week or so has been pretty interesting (see this reddit post for some details). The first few days showed how bad assumptions can quickly become blockers and then how other assumptions can manifest themselves in more subtle ways.
+Time Resolution Bugs I talked about the first blocker in the previous post but this is more about the latter. I had assumed that the Dexcom&amp;rsquo;s internal time was standard.</description>
     </item>
     
     <item>
@@ -265,22 +126,9 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Mon, 25 Aug 2014 21:01:03 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/glukloader-1.0-rc11/</guid>
-      <description>&lt;p&gt;Today was a big milestone for Glukit: someone else besides me used it. Or rather, someone else besides me tried to.&lt;/p&gt;
-
-&lt;p&gt;Given the interesting and active discussions on &lt;a href=&#34;http://www.reddit.com/r/diabetes/&#34;&gt;/r/diabetes&lt;/a&gt;, I had the intuition that I might find people who met my pretty strict requirements: Type 1 diabetic Dexcom G4 user with a Mac.&lt;/p&gt;
-
-&lt;p&gt;While this didn&amp;rsquo;t go as smoothly as I would have hoped as people were giving it a spin, I was surprised to see this much activity on &lt;a href=&#34;http://www.reddit.com/r/diabetes/comments/2ei3qe/type_1_diabetic_and_software_engineer_i_thought_i/&#34;&gt;my post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;On the technical side, the biggest problem was due to a bad assumption (or oversight) I made a long time ago. Most people don&amp;rsquo;t enter user events (injections, carbs) on their receiver and the receiver returns an indicator to say there&amp;rsquo;s no data. Except I wasn&amp;rsquo;t expecting such a value. With the logs kindly provided by &lt;a href=&#34;https://github.com/ChickenBeard&#34;&gt;ChickenBeard&lt;/a&gt;, I was able to identify the bug and add tests to reproduce it. And &lt;a href=&#34;https://github.com/alexandre-normand/bloodSheltie/pull/22&#34;&gt;fix it&lt;/a&gt;, too.&lt;/p&gt;
-
-&lt;p&gt;So, for my fellow redditors that were kind enough to give it a try but experienced Glukloader becoming unresponsive, this might be an update that you want to try: &lt;a href=&#34;https://www.dropbox.com/s/dynukh1ofmvsst5/glukloader%201.0-rc12.dmg?dl=1&#34;&gt;Glukloader 1.0-rc12&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Oh and there&amp;rsquo;s also a timezone related bug that I&amp;rsquo;m trying to isolate at the moment. Hopefully, it won&amp;rsquo;t be too long before I figure this one out.&lt;/p&gt;
-
-&lt;p&gt;Again, don&amp;rsquo;t hesitate to &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Peace,&lt;/p&gt;
-</description>
+      <description>Today was a big milestone for Glukit: someone else besides me used it. Or rather, someone else besides me tried to.
+Given the interesting and active discussions on /r/diabetes, I had the intuition that I might find people who met my pretty strict requirements: Type 1 diabetic Dexcom G4 user with a Mac.
+While this didn&amp;rsquo;t go as smoothly as I would have hoped as people were giving it a spin, I was surprised to see this much activity on my post.</description>
     </item>
     
     <item>
@@ -289,36 +137,8 @@ release (which has a few related fixes) and see where this would get me.&lt;/p&g
       <pubDate>Fri, 22 Aug 2014 09:08:03 -0700</pubDate>
       
       <guid>http://blog.mygluk.it/posts/introduction/</guid>
-      <description>
-
-&lt;p&gt;People who know me can attest to this (I hope): once I commit myself to doing something, I do it. Even if it makes my life miserable. Even if no one is looking and the cost of giving up is nil.&lt;/p&gt;
-
-&lt;p&gt;I do it because I need to create &lt;em&gt;something&lt;/em&gt;. I do it because I know that the result might be worth it. I do it because I know that working on something brings a great satisfaction only on successful completion of it.&lt;/p&gt;
-
-&lt;p&gt;I started working on &lt;a href=&#34;https://mygluk.it&#34;&gt;glukit&lt;/a&gt; in March 2013. We&amp;rsquo;re in August 2014, 16 months later. After an initial functional app, I had a good idea of what the minimal set of features I wanted in the 1.0 preview release. And I wanted to get that first release out. So I committed myself to making 1 commit every day until I got all of it done.&lt;/p&gt;
-
-&lt;p&gt;This got me a streak of &lt;a href=&#34;https://farm6.staticflickr.com/5561/15004911492_19aca9abd5_c.jpg&#34;&gt;200 days of commits&lt;/a&gt; on &lt;a href=&#34;http://github.com&#34;&gt;github&lt;/a&gt;. The funny thing is that I realized only after getting hooked that my streak would only ever be visible to me because my repositories are private. But that&amp;rsquo;s not why the feature is powerful. There might be a social aspect to it but, to me, this was another behavioral science trick to help me get to a desired outcome.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-dark-side&#34;&gt;The Dark Side&lt;/h3&gt;
-
-&lt;p&gt;Now what? I&amp;rsquo;ve gone through the making of successful creative projects like this one before. The hard part if always the life &lt;em&gt;after&lt;/em&gt;. The truth is that I feel exhausted from having worked so hard without a pause for so long. That hard work and dedication got me to a significant milestone. But, now at that milestone, it&amp;rsquo;s hard to find the energy to commit to the next phase.&lt;/p&gt;
-
-&lt;h4 id=&#34;recharging&#34;&gt;Recharging&lt;/h4&gt;
-
-&lt;p&gt;The first day of my 2 weeks family vacation was the day I made the commit that marked the 200th day. I knew I had to wrap-up before losing focus. I&amp;rsquo;m afraid that taking a break will get me to move away enough that I won&amp;rsquo;t want to get back to it. I might get drawn to something new like drawing or writing a book.&lt;/p&gt;
-
-&lt;h4 id=&#34;you&#34;&gt;You&lt;/h4&gt;
-
-&lt;p&gt;But &lt;a href=&#34;https://mygluk.it/&#34;&gt;glukit&lt;/a&gt; is also different. I did commit before I left that I would return from vacation to announce the preview release of &lt;a href=&#34;https://mygluk.it/&#34;&gt;glukit&lt;/a&gt;. If I was successful in creating a convincing presentation of my idea for a &lt;em&gt;better&lt;/em&gt;, behavioral science powered diabetes application, maybe you&amp;rsquo;ll have something to tell me. Comments, suggestions, requests. I worked on &lt;a href=&#34;https://mygluk.it/&#34;&gt;glukit&lt;/a&gt; for so long that I can&amp;rsquo;t see clearly anymore if it&amp;rsquo;s any good or if it can be effective like I imagined it.&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;ll &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;tell me&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you think it might have potential, I&amp;rsquo;d be excited to hear it.&lt;/p&gt;
-
-&lt;p&gt;Your &lt;a href=&#34;mailto:alexandre.normand@mygluk.it&#34;&gt;emails&lt;/a&gt; might be what fuels my next commit streak.&lt;/p&gt;
-
-&lt;p&gt;Love,&lt;/p&gt;
-</description>
+      <description>People who know me can attest to this (I hope): once I commit myself to doing something, I do it. Even if it makes my life miserable. Even if no one is looking and the cost of giving up is nil.
+I do it because I need to create something. I do it because I know that the result might be worth it. I do it because I know that working on something brings a great satisfaction only on successful completion of it.</description>
     </item>
     
   </channel>
