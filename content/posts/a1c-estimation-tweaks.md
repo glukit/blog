@@ -11,6 +11,6 @@ I also made a small tweak to the a1c calculation which should result in slightly
 
 Again, I'd like to hear about your experience with this feature. Refer to my [previous post](/posts/a1c-estimation) for my suggested experiment. 
 
-Don't hesitate to tell me what your experience is with this. [Email me](mailto:alexandre.normand@mygluk.it)! 
+Don't hesitate to tell me what your experience is with this. [Email me](mailto:alexandre.normand@gmail.com)! 
 
 Cheers,

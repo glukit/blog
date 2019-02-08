@@ -25,6 +25,6 @@ Glukloader, the Mac OS X uploader is written in Objective-C. Glukit itself was w
 
 ### Get in Touch
 
-If that sounds like something interesting to you, I think it could be a lot of fun. [Glukit](https://mygluk.it) is a fully functional app but I have a nice backlog of exciting features that I think would be awesome for it. If you'd like to give this a try, [talk to me](mailto:alexandre.normand@mygluk.it). I'd love to hear from you.
+If that sounds like something interesting to you, I think it could be a lot of fun. [Glukit](https://mygluk.it) is a fully functional app but I have a nice backlog of exciting features that I think would be awesome for it. If you'd like to give this a try, [talk to me](mailto:alexandre.normand@gmail.com). I'd love to hear from you.
 
 Peace,

@@ -19,7 +19,7 @@ Here are where the repositories can be found:
 
 * [safekeeper](https://github.com/alexandre-normand/safekeeper), a command-line tool to use with [go:generate](http://blog.golang.org/generate) to keep secrets safe from the git history by generating code from environment variables, written in Go: [https://github.com/alexandre-normand/safekeeper](https://github.com/alexandre-normand/safekeeper).
 
-If you decide to grab the code and try hacking and find yourself lost, don't hesitate to [get in touch](mailto:alexandre.normand@mygluk.it).
+If you decide to grab the code and try hacking and find yourself lost, don't hesitate to [get in touch](mailto:alexandre.normand@gmail.com).
 
 Cheers!
 

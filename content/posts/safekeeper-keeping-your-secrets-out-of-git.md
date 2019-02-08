@@ -14,7 +14,7 @@ After reading about [go generate](http://blog.golang.org/generate), I thought th
 ### Enter safekeeper
 Based on the [go generate](http://blog.golang.org/generate) examples, I set myself out to create a command-line tool that would take a few inputs and generate a file to be git ignored containing all application secrets. You have to [follow the instructions](https://github.com/alexandre-normand/safekeeper/blob/master/README.md) to get a nice integration but once it's set up, developers can set their secrets in their environment and then they just have to run `go generate` or `goapp generate` to get them into the code to deploy or run. 
 
-I tried to include a detailed example of how it can be used effectively but [let me know](mailto:alexandre.normand@mygluk.it) if you find anything missing.
+I tried to include a detailed example of how it can be used effectively but [let me know](mailto:alexandre.normand@gmail.com) if you find anything missing.
 
 Cheers!
 

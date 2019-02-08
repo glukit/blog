@@ -18,6 +18,6 @@ Since Glukloader has proven to be very important to the whole interaction with G
 ## Download
 Here's the link to the new build with both of those: [Glukloader 1.0-rc20](https://www.dropbox.com/s/7wjh03q9ch4sd87/glukloader%201.0-rc20.dmg?dl=1). 
 
-Again, [talk to me](mailto:alexandre.normand@mygluk.it) if there's anything on your mind.
+Again, [talk to me](mailto:alexandre.normand@gmail.com) if there's anything on your mind.
 
 Peace,

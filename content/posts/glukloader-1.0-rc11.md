@@ -17,6 +17,6 @@ So, for my fellow redditors that were kind enough to give it a try but experienc
 
 Oh and there's also a timezone related bug that I'm trying to isolate at the moment. Hopefully, it won't be too long before I figure this one out.
 
-Again, don't hesitate to [contact me](mailto:alexandre.normand@mygluk.it).
+Again, don't hesitate to [contact me](mailto:alexandre.normand@gmail.com).
 
 Peace,

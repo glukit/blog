@@ -18,6 +18,6 @@ A few notes:
 
  I'd like to hear about your experience with this feature. For people with the desire to do so, one interesting experiment to run would be to check you estimate the day that you get your a1c tested. Write it down. When you get your a1c result, it would be interesting to compare the estimate with the actual value. 
 
- If you feel like running such an experiment, I'd love it if you could email me [your results](mailto:alexandre.normand@mygluk.it). It would make it easier for me to improve the feature to provide more accurate estimates. And I promise that I won't be judging. 
+ If you feel like running such an experiment, I'd love it if you could email me [your results](mailto:alexandre.normand@gmail.com). It would make it easier for me to improve the feature to provide more accurate estimates. And I promise that I won't be judging. 
 
 Cheers,

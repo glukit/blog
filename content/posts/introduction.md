@@ -23,10 +23,10 @@ The first day of my 2 weeks family vacation was the day I made the commit that m
 #### You
 But [glukit](https://mygluk.it/) is also different. I did commit before I left that I would return from vacation to announce the preview release of [glukit](https://mygluk.it/). If I was successful in creating a convincing presentation of my idea for a *better*, behavioral science powered diabetes application, maybe you'll have something to tell me. Comments, suggestions, requests. I worked on [glukit](https://mygluk.it/) for so long that I can't see clearly anymore if it's any good or if it can be effective like I imagined it. 
 
-You'll [tell me](mailto:alexandre.normand@mygluk.it). 
+You'll [tell me](mailto:alexandre.normand@gmail.com). 
 
 If you think it might have potential, I'd be excited to hear it. 
 
-Your [emails](mailto:alexandre.normand@mygluk.it) might be what fuels my next commit streak. 
+Your [emails](mailto:alexandre.normand@gmail.com) might be what fuels my next commit streak. 
 
 Love,
